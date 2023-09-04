@@ -1,0 +1,15 @@
+{
+  "name": "kiss-rules",
+  "description": "A minimalist bilingual translation Extension & Greasemonkey Script",
+  "version": "0.0.1",
+  "author": "Gabe<yugang2002@gmail.com>",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && babel-node src/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/node": "^7.22.10",
+    "@babel/preset-env": "^7.22.10"
+  }
+}
