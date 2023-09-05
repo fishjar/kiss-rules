@@ -11,7 +11,7 @@ const defaultRule = {
   textDiyStyle: "",
 };
 
-const defaultSelector = `:is(li, p, h1, h2, h3, h4, h5, h6, dd)`;
+const defaultSelector = `:is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)`;
 const rulesMap = {
   "www.google.com/search": `h3, .IsZvec, .VwiC3b`,
   "news.google.com": `h4`,
