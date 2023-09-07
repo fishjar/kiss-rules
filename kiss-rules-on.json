@@ -55,19 +55,8 @@
     "textDiyStyle": ""
   },
   {
-    "pattern": "https://github.com/",
+    "pattern": "github.com",
     "selector": ".markdown-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop=\"description\"], .markdown-title, bdi",
-    "translator": "*",
-    "fromLang": "*",
-    "toLang": "*",
-    "textStyle": "*",
-    "transOpen": "true",
-    "bgColor": "",
-    "textDiyStyle": ""
-  },
-  {
-    "pattern": "https://time.com/",
-    "selector": "h1, h3, .summary, .video-title, #article-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .image-wrap-container .credit.body-caption, .media-heading",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -134,6 +123,17 @@
   {
     "pattern": "themessenger.com",
     "selector": ".leading-tight, .leading-tighter, .my-2 p, .font-body p, article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "true",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
+    "pattern": "time.com",
+    "selector": "h1, h3, .summary, .video-title, #article-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .image-wrap-container .credit.body-caption, .media-heading",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -275,7 +275,7 @@
     "textDiyStyle": ""
   },
   {
-    "pattern": "www.npmjs.com/package/, developer.chrome.com/docs, medium.com, developers.cloudflare.com, react.dev, create-react-app.dev, pytorch.org/",
+    "pattern": "www.npmjs.com/package, developer.chrome.com/docs, medium.com, developers.cloudflare.com, react.dev, create-react-app.dev, pytorch.org",
     "selector": "article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",
     "fromLang": "*",
