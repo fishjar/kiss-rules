@@ -1,0 +1,14 @@
+[
+  {
+    "pattern": "www.phoronix.com",
+    "selector": ".content",
+    "rootSlector": "",
+    "fixer": "br"
+  },
+  {
+    "pattern": "t.me/s/*",
+    "selector": ".tgme_widget_message_text",
+    "rootSlector": ".tgme_channel_history",
+    "fixer": "br"
+  }
+]
