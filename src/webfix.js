@@ -1,5 +1,5 @@
 const FIXER_BR = "br";
-const FIX_FONTSIZE = "fontSize";
+const FIXER_FONTSIZE = "fontSize";
 
 export default [
   {
@@ -18,6 +18,6 @@ export default [
     pattern: "baidu.com",
     selector: "html",
     rootSlector: "",
-    fixer: FIX_FONTSIZE,
+    fixer: FIXER_FONTSIZE,
   },
 ];
