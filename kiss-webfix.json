@@ -6,9 +6,15 @@
     "fixer": "br"
   },
   {
-    "pattern": "t.me/s/*",
+    "pattern": "t.me/s/",
     "selector": ".tgme_widget_message_text",
     "rootSlector": ".tgme_channel_history",
     "fixer": "br"
+  },
+  {
+    "pattern": "baidu.com",
+    "selector": "html",
+    "rootSlector": "",
+    "fixer": "fontSize"
   }
 ]
