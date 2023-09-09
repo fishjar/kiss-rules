@@ -27,7 +27,7 @@ const rulesMap = {
   "www.newyorker.com": `.summary-item__hed, .summary-item__dek, .summary-collection-grid__dek, .dqtvfu, .rubric__link, .caption, article ${defaultSelector}, .HEhan ${defaultSelector}, .ContributorBioBio-fBolsO`,
   "time.com": `h1, h3, .summary, .video-title, #article-body ${defaultSelector}, .image-wrap-container .credit.body-caption, .media-heading`,
   "www.dw.com": `.ts-teaser-title a, .news-title a, .title a, .teaser-description a, .hbudab h3, .hbudab p, figcaption ,article ${defaultSelector}`,
-  "www.bbc.com": `h1, h2, .media__link, .media__summary, article ${defaultSelector}, .ssrcss-y7krbn-Stack, .ssrcss-1mrs5ns-PromoLink, .ssrcss-18cjaf3-Headline, .gs-c-promo-heading__title, .gs-c-promo-summary, .media__content h3, .article__intro`,
+  "www.bbc.com": `h1, h2, .media__link, .media__summary, article ${defaultSelector}, .ssrcss-y7krbn-Stack, .ssrcss-17zglt8-PromoHeadline, .ssrcss-18cjaf3-Headline, .gs-c-promo-heading__title, .gs-c-promo-summary, .media__content h3, .article__intro`,
   "www.chinadaily.com.cn": `h1, .tMain [shape="rect"], .cMain [shape="rect"], .photo_art [shape="rect"], .mai_r [shape="rect"], .lisBox li, #Content ${defaultSelector}`,
   "www.facebook.com": `[role="main"] [dir="auto"]`,
   "www.reddit.com": `[slot="title"], [slot="text-body"] ${defaultSelector}, #-post-rtjson-content p`,
