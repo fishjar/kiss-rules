@@ -5,19 +5,19 @@ export default [
   {
     pattern: "www.phoronix.com",
     selector: ".content",
-    rootSlector: "",
+    rootSelector: "",
     fixer: FIXER_BR,
   },
   {
     pattern: "t.me/s/",
     selector: ".tgme_widget_message_text",
-    rootSlector: ".tgme_channel_history",
+    rootSelector: ".tgme_channel_history",
     fixer: FIXER_BR,
   },
   {
     pattern: "baidu.com",
     selector: "html",
-    rootSlector: "",
+    rootSelector: "",
     fixer: FIXER_FONTSIZE,
   },
 ];
