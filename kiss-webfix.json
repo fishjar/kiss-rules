@@ -2,19 +2,19 @@
   {
     "pattern": "www.phoronix.com",
     "selector": ".content",
-    "rootSlector": "",
+    "rootSelector": "",
     "fixer": "br"
   },
   {
     "pattern": "t.me/s/",
     "selector": ".tgme_widget_message_text",
-    "rootSlector": ".tgme_channel_history",
+    "rootSelector": ".tgme_channel_history",
     "fixer": "br"
   },
   {
     "pattern": "baidu.com",
     "selector": "html",
-    "rootSlector": "",
+    "rootSelector": "",
     "fixer": "fontSize"
   }
 ]
