@@ -14,7 +14,7 @@ const defaultRule = {
 const defaultSelector = `:is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)`;
 const rulesMap = {
   "www.google.com/search": `h3, .IsZvec, .VwiC3b`,
-  "news.google.com": `h4`,
+  "news.google.com": `[role="link"], .DY5T1d, .ifw3f`,
   "www.foxnews.com": `h1, h2, .title, .sidebar [data-type="Title"], .article-content ${defaultSelector}; [data-spotim-module="conversation"]>div >>> [data-spot-im-class="message-text"] p,  [data-spot-im-class="message-text"]`,
   "bearblog.dev, www.theverge.com, www.tampermonkey.net/documentation.php": `${defaultSelector}`,
   "themessenger.com": `.leading-tight, .leading-tighter, .my-2 p, .font-body p, article ${defaultSelector}`,
@@ -45,7 +45,8 @@ const rulesMap = {
   "news.ycombinator.com": `.title, .commtext`,
   "github.com": `.markdown-body ${defaultSelector}, .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop="description"], .markdown-title, bdi`,
   "twitter.com": `[data-testid="tweetText"]`,
-  "youtube.com": `h1, #video-title, #content-text, #title, yt-attributed-string>span>span`,
+  "m.youtube.com": `.slim-video-information-title .yt-core-attributed-string, .media-item-headline .yt-core-attributed-string, .comment-text .yt-core-attributed-string, .typography-body-2b .yt-core-attributed-string, #ytp-caption-window-container .ytp-caption-segment`,
+  "www.youtube.com": `h1, #video-title, #content-text, #title, yt-attributed-string>span>span, #ytp-caption-window-container .ytp-caption-segment`,
 };
 
 const globalRules = Object.entries(rulesMap)
