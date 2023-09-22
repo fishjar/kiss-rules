@@ -49,6 +49,12 @@ const rulesMap = {
   "www.youtube.com": `h1, #video-title, #content-text, #title, yt-attributed-string>span>span, #ytp-caption-window-container .ytp-caption-segment`,
   "bard.google.com": `.query-content ${defaultSelector}, message-content ${defaultSelector}`,
   "www.bing.com": `.b_algoSlug, .rwrl_padref; .cib-serp-main >>> .ac-textBlock ${defaultSelector}, .text-message-content div`,
+  "www.phoronix.com": `article ${defaultSelector}`,
+  "wx2.qq.com": `.js_message_plain`,
+  "app.slack.com/client/": `.p-rich_text_section ${defaultSelector}, .p-rich_text_list li`,
+  "discord.com/channels/": `div[id^=message-content]`,
+  "t.me/s/": `.js-message_text ${defaultSelector}`,
+  "web.telegram.org/": `.message`,
 };
 
 const globalRules = Object.entries(rulesMap)
