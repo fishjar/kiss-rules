@@ -47,6 +47,8 @@ const rulesMap = {
   "twitter.com": `[data-testid="tweetText"]`,
   "m.youtube.com": `.slim-video-information-title .yt-core-attributed-string, .media-item-headline .yt-core-attributed-string, .comment-text .yt-core-attributed-string, .typography-body-2b .yt-core-attributed-string, #ytp-caption-window-container .ytp-caption-segment`,
   "www.youtube.com": `h1, #video-title, #content-text, #title, yt-attributed-string>span>span, #ytp-caption-window-container .ytp-caption-segment`,
+  "bard.google.com": `.query-content ${defaultSelector}, message-content ${defaultSelector}`,
+  "www.bing.com": `.b_algoSlug, .rwrl_padref; .cib-serp-main >>> .ac-textBlock ${defaultSelector}, .text-message-content div`,
 };
 
 const globalRules = Object.entries(rulesMap)
