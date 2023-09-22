@@ -1,5 +1,16 @@
 [
   {
+    "pattern": "app.slack.com/client/",
+    "selector": ".p-rich_text_section :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .p-rich_text_list li",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
     "pattern": "bard.google.com",
     "selector": ".query-content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), message-content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",
@@ -24,6 +35,17 @@
   {
     "pattern": "deno.land, docs.github.com",
     "selector": "main :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
+    "pattern": "discord.com/channels/",
+    "selector": "div[id^=message-content]",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -143,6 +165,17 @@
     "textDiyStyle": ""
   },
   {
+    "pattern": "t.me/s/",
+    "selector": ".js-message_text :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
     "pattern": "themessenger.com",
     "selector": ".leading-tight, .leading-tighter, .my-2 p, .font-body p, article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",
@@ -167,6 +200,17 @@
   {
     "pattern": "twitter.com",
     "selector": "[data-testid=\"tweetText\"]",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
+    "pattern": "web.telegram.org/",
+    "selector": ".message",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -319,6 +363,17 @@
     "textDiyStyle": ""
   },
   {
+    "pattern": "www.phoronix.com",
+    "selector": "article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
     "pattern": "www.quora.com",
     "selector": ".qu-wordBreak--break-word",
     "translator": "*",
@@ -387,6 +442,17 @@
   {
     "pattern": "www.youtube.com",
     "selector": "h1, #video-title, #content-text, #title, yt-attributed-string>span>span, #ytp-caption-window-container .ytp-caption-segment",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
+    "pattern": "wx2.qq.com",
+    "selector": ".js_message_plain",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",

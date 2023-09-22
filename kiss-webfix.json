@@ -12,6 +12,12 @@
     "fixer": "br"
   },
   {
+    "pattern": "app.slack.com/client",
+    "selector": ".p-rich_text_section",
+    "rootSelector": ".c-virtual_list__scroll_container",
+    "fixer": "br"
+  },
+  {
     "pattern": "baidu.com",
     "selector": "html",
     "rootSelector": "",
