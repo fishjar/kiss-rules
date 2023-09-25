@@ -309,7 +309,7 @@
   },
   {
     "pattern": "www.google.com/search",
-    "selector": "h3, .IsZvec, .VwiC3b",
+    "selector": "h3, .IsZvec, .VwiC3b, article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
