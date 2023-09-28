@@ -111,7 +111,7 @@
   },
   {
     "pattern": "news.google.com",
-    "selector": "[role=\"link\"], .DY5T1d, .ifw3f",
+    "selector": "[role=\"link\"], .DY5T1d, .ifw3f, article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -309,7 +309,7 @@
   },
   {
     "pattern": "www.google.com/search",
-    "selector": "h3, .IsZvec, .VwiC3b, article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "selector": "h3, .IsZvec, .VwiC3b",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -418,7 +418,7 @@
     "textDiyStyle": ""
   },
   {
-    "pattern": "www.telegraph.co.uk",
+    "pattern": "www.telegraph.co.uk, go.dev/doc/",
     "selector": "article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",
     "fromLang": "*",
