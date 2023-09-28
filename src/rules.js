@@ -14,7 +14,7 @@ const defaultRule = {
 const defaultSelector = `:is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)`;
 const rulesMap = {
   "www.google.com/search": `h3, .IsZvec, .VwiC3b`,
-  "news.google.com": `[role="link"], .DY5T1d, .ifw3f, article ${defaultSelector}`,
+  "news.google.com": `[role="link"], .DY5T1d, .ifw3f, ${defaultSelector}`,
   "www.foxnews.com": `h1, h2, .title, .sidebar [data-type="Title"], .article-content ${defaultSelector}; [data-spotim-module="conversation"]>div >>> [data-spot-im-class="message-text"] p,  [data-spot-im-class="message-text"]`,
   "bearblog.dev, www.theverge.com, www.tampermonkey.net/documentation.php": `${defaultSelector}`,
   "themessenger.com": `.leading-tight, .leading-tighter, .my-2 p, .font-body p, article ${defaultSelector}`,
