@@ -13,12 +13,12 @@ const defaultRule = {
 
 const defaultSelector = `:is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)`;
 const rulesMap = {
-  "www.google.com/search": `h3, .IsZvec, .VwiC3b, article ${defaultSelector}`,
-  "news.google.com": `[role="link"], .DY5T1d, .ifw3f`,
+  "www.google.com/search": `h3, .IsZvec, .VwiC3b`,
+  "news.google.com": `[role="link"], .DY5T1d, .ifw3f, article ${defaultSelector}`,
   "www.foxnews.com": `h1, h2, .title, .sidebar [data-type="Title"], .article-content ${defaultSelector}; [data-spotim-module="conversation"]>div >>> [data-spot-im-class="message-text"] p,  [data-spot-im-class="message-text"]`,
   "bearblog.dev, www.theverge.com, www.tampermonkey.net/documentation.php": `${defaultSelector}`,
   "themessenger.com": `.leading-tight, .leading-tighter, .my-2 p, .font-body p, article ${defaultSelector}`,
-  "www.telegraph.co.uk": `article ${defaultSelector}`,
+  "www.telegraph.co.uk, go.dev/doc/": `article ${defaultSelector}`,
   "www.theguardian.com": `.show-underline, .dcr-hup5wm div, .dcr-7vl6y8 div, .dcr-12evv1c, figcaption, article ${defaultSelector}, [data-cy="mostviewed-footer"] h4`,
   "www.semafor.com": `${defaultSelector}, .styles_intro__IYj__, [class*="styles_description"]`,
   "www.noemamag.com": `.splash__title, .single-card__title, .single-card__type, .single-card__topic, .highlighted-content__title, .single-card__author, article ${defaultSelector}, .quote__text, .wp-caption-text div`,
