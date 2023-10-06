@@ -58,9 +58,10 @@ const rulesMap = {
   "web.telegram.org/a/": `.message, .text-content, .bot-commands-list-element-description, .reply-markup-button-text`,
   "chromereleases.googleblog.com": `.title, .publishdate, p, i, .header-desc, .header-title, .text`,
   "www.instagram.com/": `h1, article span[dir=auto] > span[dir=auto], ._ab1y`,
-  "www.instagram.com/p/*,www.instagram.com/reels/": `h1, div[class='x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1uhb9sk x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1cy8zhl x1oa3qoh x1nhvcw1'] > span[class='x1lliihq x1plvlek xryxfnj x1n2onr6 x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye xvs91rp xo1l8bm x5n08af x10wh9bi x1wdrske x8viiok x18hxmgj'], span[class='x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs xt0psk2 x1i0vuye xvs91rp xo1l8bm x5n08af x10wh9bi x1wdrske x8viiok x18hxmgj']`,
+  "www.instagram.com/p/,www.instagram.com/reels/": `h1, div[class='x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1uhb9sk x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1cy8zhl x1oa3qoh x1nhvcw1'] > span[class='x1lliihq x1plvlek xryxfnj x1n2onr6 x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye xvs91rp xo1l8bm x5n08af x10wh9bi x1wdrske x8viiok x18hxmgj'], span[class='x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs xt0psk2 x1i0vuye xvs91rp xo1l8bm x5n08af x10wh9bi x1wdrske x8viiok x18hxmgj']`,
   "mail.google.com": `h2[data-thread-perm-id], span[data-thread-id], div[data-message-id] div[class=''], .messageBody, #views`,
   "web.whatsapp.com": `.copyable-text > span`,
+  "chat.openai.com": `div.flex.flex-grow.flex-col, ${defaultSelector}`,
 };
 
 const globalRules = Object.entries(rulesMap)
