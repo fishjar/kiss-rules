@@ -63,6 +63,7 @@ const rulesMap = {
   "web.whatsapp.com": `.copyable-text > span`,
   "chat.openai.com": `div.flex.flex-grow.flex-col, ${defaultSelector}`,
   "forum.ru-board.com": `.tit, .dats, span.post ${defaultSelector}`,
+  "education.github.com": `${defaultSelector}, a, summary, span.Button-content`,
 };
 
 const globalRules = Object.entries(rulesMap)
