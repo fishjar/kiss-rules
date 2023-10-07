@@ -33,6 +33,17 @@
     "textDiyStyle": ""
   },
   {
+    "pattern": "chat.openai.com",
+    "selector": "div.flex.flex-grow.flex-col, :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "*",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
     "pattern": "chromereleases.googleblog.com",
     "selector": ".title, .publishdate, p, i, .header-desc, .header-title, .text",
     "translator": "*",
@@ -100,7 +111,7 @@
   },
   {
     "pattern": "github.com",
-    "selector": ".markdown-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop=\"description\"], .markdown-title, bdi",
+    "selector": ".markdown-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop=\"description\"], .markdown-title, bdi, .ws-pre-wrap, .status-meta, span.status-meta, .col-10.color-fg-muted, .TimelineItem-body, .pinned-item-list-item-content .color-fg-muted",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -122,7 +133,7 @@
   },
   {
     "pattern": "mail.google.com",
-    "selector": "h2[data-thread-perm-id], span[data-thread-id], div[data-message-id] div[class=''], .messageBody, #views",
+    "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), h2[data-thread-perm-id], span[data-thread-id], div[data-message-id] div[class=''], .messageBody, #views",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -385,7 +396,7 @@
     "textDiyStyle": ""
   },
   {
-    "pattern": "www.instagram.com/p/*,www.instagram.com/reels/",
+    "pattern": "www.instagram.com/p/,www.instagram.com/reels/",
     "selector": "h1, div[class='x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1uhb9sk x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1cy8zhl x1oa3qoh x1nhvcw1'] > span[class='x1lliihq x1plvlek xryxfnj x1n2onr6 x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye xvs91rp xo1l8bm x5n08af x10wh9bi x1wdrske x8viiok x18hxmgj'], span[class='x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs xt0psk2 x1i0vuye xvs91rp xo1l8bm x5n08af x10wh9bi x1wdrske x8viiok x18hxmgj']",
     "translator": "*",
     "fromLang": "*",
