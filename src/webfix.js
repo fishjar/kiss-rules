@@ -15,6 +15,12 @@ export default [
     fixer: FIXER_BR,
   },
   {
+    pattern: "forum.ru-board.com",
+    selector: "span.post",
+    rootSelector: "",
+    fixer: FIXER_BR,
+  },
+  {
     pattern: "baidu.com",
     selector: "html",
     rootSelector: "",
