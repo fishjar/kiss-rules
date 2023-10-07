@@ -1,7 +1,7 @@
 const FIXER_BR = "br";
 const FIXER_FONTSIZE = "fontSize";
 
-export default [
+const webfix = [
   {
     pattern: "www.phoronix.com",
     selector: ".content",
@@ -27,3 +27,7 @@ export default [
     fixer: FIXER_FONTSIZE,
   },
 ];
+
+export default {
+  "kiss-webfix": webfix,
+};
