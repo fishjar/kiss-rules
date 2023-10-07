@@ -12,6 +12,12 @@
     "fixer": "br"
   },
   {
+    "pattern": "forum.ru-board.com",
+    "selector": "span.post",
+    "rootSelector": "",
+    "fixer": "br"
+  },
+  {
     "pattern": "baidu.com",
     "selector": "html",
     "rootSelector": "",
