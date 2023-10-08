@@ -43,7 +43,7 @@ const rulesMap = {
   "stackoverflow.com": `h1, .s-prose p, .comment-body .comment-copy`,
   "www.npmjs.com/package, developer.chrome.com/docs, medium.com, developers.cloudflare.com, react.dev, create-react-app.dev, pytorch.org": `article ${defaultSelector}`,
   "news.ycombinator.com": `.title, .commtext`,
-  "github.com": `.markdown-body ${defaultSelector}, .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop="description"], .markdown-title, bdi, .ws-pre-wrap, .status-meta, span.status-meta, .col-10.color-fg-muted, .TimelineItem-body, .pinned-item-list-item-content .color-fg-muted`,
+  "github.com": `.markdown-body ${defaultSelector}, .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop="description"], .markdown-title, bdi, .ws-pre-wrap, .status-meta, span.status-meta, .col-10.color-fg-muted, .TimelineItem-body, .pinned-item-list-item-content .color-fg-muted, td, th`,
   "twitter.com": `[data-testid="tweetText"]`,
   "m.youtube.com": `.slim-video-information-title .yt-core-attributed-string, .media-item-headline .yt-core-attributed-string, .comment-text .yt-core-attributed-string, .typography-body-2b .yt-core-attributed-string, #ytp-caption-window-container .ytp-caption-segment`,
   "www.youtube.com": `h1, #video-title, #content-text, #title, yt-attributed-string>span>span, #ytp-caption-window-container .ytp-caption-segment`,
@@ -63,6 +63,7 @@ const rulesMap = {
   "web.whatsapp.com": `.copyable-text > span`,
   "chat.openai.com": `div.flex.flex-grow.flex-col, ${defaultSelector}`,
   "forum.ru-board.com": `.tit, .dats, span.post ${defaultSelector}`,
+  "education.github.com": `${defaultSelector}, a, summary, span.Button-content`,
 };
 
 const globalRules = Object.entries(rulesMap)
