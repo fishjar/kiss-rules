@@ -99,6 +99,17 @@
     "textDiyStyle": ""
   },
   {
+    "pattern": "education.github.com",
+    "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), a, summary, span.Button-content",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "*",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
     "pattern": "en.wikipedia.org",
     "selector": "h1, .mw-parser-output :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",
@@ -122,7 +133,7 @@
   },
   {
     "pattern": "github.com",
-    "selector": ".markdown-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop=\"description\"], .markdown-title, bdi, .ws-pre-wrap, .status-meta, span.status-meta, .col-10.color-fg-muted, .TimelineItem-body, .pinned-item-list-item-content .color-fg-muted",
+    "selector": ".markdown-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop=\"description\"], .markdown-title, bdi, .ws-pre-wrap, .status-meta, span.status-meta, .col-10.color-fg-muted, .TimelineItem-body, .pinned-item-list-item-content .color-fg-muted, td, th",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
