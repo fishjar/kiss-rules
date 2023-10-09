@@ -26,6 +26,12 @@ const webfix = [
     rootSelector: "",
     fixer: FIXER_FONTSIZE,
   },
+  {
+    pattern: "blogs.windows.com",
+    selector: ".t-content>div>ul>li",
+    rootSelector: "",
+    fixer: FIXER_BR,
+  },
 ];
 
 export default {
