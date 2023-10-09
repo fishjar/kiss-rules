@@ -33,6 +33,17 @@
     "textDiyStyle": ""
   },
   {
+    "pattern": "blogs.windows.com",
+    "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .c-uhf-nav-link, figcaption",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
     "pattern": "chat.openai.com",
     "selector": "div.flex.flex-grow.flex-col, :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",

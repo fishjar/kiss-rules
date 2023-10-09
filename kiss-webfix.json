@@ -22,5 +22,11 @@
     "selector": "html",
     "rootSelector": "",
     "fixer": "fontSize"
+  },
+  {
+    "pattern": "blogs.windows.com",
+    "selector": ".t-content>div>ul>li",
+    "rootSelector": "",
+    "fixer": "br"
   }
 ]
