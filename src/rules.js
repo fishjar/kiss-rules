@@ -64,6 +64,7 @@ const rulesMap = {
   "chat.openai.com": `div.flex.flex-grow.flex-col, ${defaultSelector}`,
   "forum.ru-board.com": `.tit, .dats, span.post ${defaultSelector}`,
   "education.github.com": `${defaultSelector}, a, summary, span.Button-content`,
+  "blogs.windows.com": `${defaultSelector}, .c-uhf-nav-link, figcaption`,
 };
 
 const globalRules = Object.entries(rulesMap)
