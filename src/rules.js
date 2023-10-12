@@ -36,7 +36,7 @@ const rulesMap = {
   "www.reuters.com": `#main-content [data-testid="Heading"], #main-content [data-testid="Body"], .article-body__content__17Yit ${defaultSelector}`,
   "www.bloomberg.com": `[data-component="headline"], [data-component="related-item-headline"], [data-component="title"], article ${defaultSelector}`,
   "deno.land, docs.github.com": `main ${defaultSelector}`,
-  "doc.rust-lang.org": `#content ${defaultSelector}`,
+  "doc.rust-lang.org": `.content ${defaultSelector}`,
   "www.indiehackers.com": `h1, h3, .content ${defaultSelector}, .feed-item__title-link`,
   "platform.openai.com/docs": `.docs-body ${defaultSelector}`,
   "en.wikipedia.org": `h1, .mw-parser-output ${defaultSelector}`,
