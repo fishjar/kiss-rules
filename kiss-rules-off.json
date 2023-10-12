@@ -89,7 +89,7 @@
   },
   {
     "pattern": "doc.rust-lang.org",
-    "selector": "#content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "selector": ".content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
