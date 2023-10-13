@@ -65,6 +65,7 @@ const rulesMap = {
   "forum.ru-board.com": `.tit, .dats, span.post ${defaultSelector}`,
   "education.github.com": `${defaultSelector}, a, summary, span.Button-content`,
   "blogs.windows.com": `${defaultSelector}, .c-uhf-nav-link, figcaption`,
+  "developer.apple.com/documentation/": `#main ${defaultSelector}, #main .abstract .content, #main .abstract.content, #main .link span`,
 };
 
 const globalRules = Object.entries(rulesMap)
