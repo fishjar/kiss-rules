@@ -77,6 +77,17 @@
     "textDiyStyle": ""
   },
   {
+    "pattern": "developer.apple.com/documentation/",
+    "selector": "#main :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), #main .abstract .content, #main .abstract.content, #main .link span",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
     "pattern": "discord.com/channels/",
     "selector": "div[id^=message-content]",
     "translator": "*",
