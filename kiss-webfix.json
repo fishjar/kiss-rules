@@ -28,5 +28,11 @@
     "selector": ".t-content>div>ul>li",
     "rootSelector": "",
     "fixer": "br"
+  },
+  {
+    "pattern": "chat.openai.com",
+    "selector": "div[data-testid^=conversation-turn] .items-start > div",
+    "rootSelector": "",
+    "fixer": "bn"
   }
 ]
