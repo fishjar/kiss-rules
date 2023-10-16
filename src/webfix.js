@@ -1,4 +1,5 @@
 const FIXER_BR = "br";
+const FIXER_BN = "bn";
 const FIXER_FONTSIZE = "fontSize";
 
 const webfix = [
@@ -32,12 +33,12 @@ const webfix = [
     rootSelector: "",
     fixer: FIXER_BR,
   },
-  // {
-  //   pattern: "chat.openai.com",
-  //   selector: "div.flex.flex-grow.flex-col",
-  //   rootSelector: "",
-  //   fixer: FIXER_BR,
-  // },
+  {
+    pattern: "chat.openai.com",
+    selector: "div[data-testid^=conversation-turn] .items-start > div",
+    rootSelector: "",
+    fixer: FIXER_BN,
+  },
 ];
 
 export default {
