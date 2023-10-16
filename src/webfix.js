@@ -32,12 +32,12 @@ const webfix = [
     rootSelector: "",
     fixer: FIXER_BR,
   },
-  {
-    pattern: "chat.openai.com",
-    selector: "div.flex.flex-grow.flex-col",
-    rootSelector: "",
-    fixer: FIXER_BR,
-  },
+  // {
+  //   pattern: "chat.openai.com",
+  //   selector: "div.flex.flex-grow.flex-col",
+  //   rootSelector: "",
+  //   fixer: FIXER_BR,
+  // },
 ];
 
 export default {
