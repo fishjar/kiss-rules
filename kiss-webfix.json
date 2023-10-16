@@ -28,11 +28,5 @@
     "selector": ".t-content>div>ul>li",
     "rootSelector": "",
     "fixer": "br"
-  },
-  {
-    "pattern": "chat.openai.com",
-    "selector": "div.flex.flex-grow.flex-col",
-    "rootSelector": "",
-    "fixer": "br"
   }
 ]
