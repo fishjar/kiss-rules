@@ -45,7 +45,7 @@
   },
   {
     "pattern": "chat.openai.com",
-    "selector": "div[data-testid^=conversation-turn] .items-start>div :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "selector": "div[data-message-author-role] > div :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
