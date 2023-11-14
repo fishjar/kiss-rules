@@ -35,7 +35,7 @@ const webfix = [
   },
   {
     pattern: "chat.openai.com",
-    selector: "div[data-testid^=conversation-turn] .items-start > div",
+    selector: "div[data-message-author-role='user'] > div",
     rootSelector: "",
     fixer: FIXER_BN,
   },
