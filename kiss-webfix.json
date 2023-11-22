@@ -18,12 +18,6 @@
     "fixer": "br"
   },
   {
-    "pattern": "baidu.com",
-    "selector": "html",
-    "rootSelector": "",
-    "fixer": "fontSize"
-  },
-  {
     "pattern": "blogs.windows.com",
     "selector": ".t-content>div>ul>li",
     "rootSelector": "",
