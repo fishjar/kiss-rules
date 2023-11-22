@@ -1,8 +1,9 @@
 const FIXER_BR = "br";
 const FIXER_BN = "bn";
-const FIXER_FONTSIZE = "fontSize";
+const FIXER_BR_DIV = "brToDiv";
+const FIXER_BN_DIV = "bnToDiv";
 
-const webfix = [
+const webfixRules = [
   {
     pattern: "www.phoronix.com",
     selector: ".content",
@@ -22,12 +23,6 @@ const webfix = [
     fixer: FIXER_BR,
   },
   {
-    pattern: "baidu.com",
-    selector: "html",
-    rootSelector: "",
-    fixer: FIXER_FONTSIZE,
-  },
-  {
     pattern: "blogs.windows.com",
     selector: ".t-content>div>ul>li",
     rootSelector: "",
@@ -42,5 +37,5 @@ const webfix = [
 ];
 
 export default {
-  "kiss-webfix": webfix,
+  "kiss-webfix": webfixRules,
 };
