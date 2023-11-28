@@ -452,7 +452,7 @@
   },
   {
     "pattern": "www.newyorker.com",
-    "selector": ".summary-item__hed, .summary-item__dek, .summary-collection-grid__dek, .dqtvfu, .rubric__link, .caption, article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .HEhan :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .ContributorBioBio-fBolsO",
+    "selector": ".summary-item__hed, .summary-item__dek, .summary-collection-grid__dek, .dqtvfu, .rubric__link, .caption, article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .HEhan :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .ContributorBioBio-fBolsO, .BaseText-ewhhUZ",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
