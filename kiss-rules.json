@@ -507,7 +507,7 @@
   },
   {
     "pattern": "www.reddit.com",
-    "selector": "[slot=\"title\"], [slot=\"text-body\"] :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), #-post-rtjson-content p",
+    "selector": "div:is(.tbIApBd2DM_drfZQJjIum, ._1zPvgKHteTOub9dKkvrOl4 ),h1,h2,h3,h4,p,a,button",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
