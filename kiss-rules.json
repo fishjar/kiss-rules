@@ -507,7 +507,7 @@
   },
   {
     "pattern": "www.reddit.com",
-    "selector": "div:is(.tbIApBd2DM_drfZQJjIum, ._1zPvgKHteTOub9dKkvrOl4 ),h1,h2,h3,h4,p,a,button",
+    "selector": "div:is(.tbIApBd2DM_drfZQJjIum, ._1zPvgKHteTOub9dKkvrOl4,.ULWj94BYSOqoJDetxgcnU),a:is([class^=\"_334yl59\"],[class^=\"_2GrMpxD\"]),h1,h2,h3,h4,h5,h6,p,button",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
