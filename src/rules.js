@@ -30,7 +30,7 @@ const RULES_MAP = {
   "www.bbc.com": `h1, h2, .media__link, .media__summary, article ${DEFAULT_SELECTOR}, .ssrcss-y7krbn-Stack, .ssrcss-17zglt8-PromoHeadline, .ssrcss-18cjaf3-Headline, .gs-c-promo-heading__title, .gs-c-promo-summary, .media__content h3, .article__intro`,
   "www.chinadaily.com.cn": `h1, .tMain [shape="rect"], .cMain [shape="rect"], .photo_art [shape="rect"], .mai_r [shape="rect"], .lisBox li, #Content ${DEFAULT_SELECTOR}`,
   "www.facebook.com": `[role="main"] [dir="auto"]`,
-  "www.reddit.com": `div:is(.tbIApBd2DM_drfZQJjIum, ._1zPvgKHteTOub9dKkvrOl4 ),h1,h2,h3,h4,p,a,button`,
+  "www.reddit.com": `div:is(.tbIApBd2DM_drfZQJjIum, ._1zPvgKHteTOub9dKkvrOl4,.ULWj94BYSOqoJDetxgcnU),a:is([class^="_334yl59"],[class^="_2GrMpxD"]),h1,h2,h3,h4,h5,h6,p,button`,
   "www.quora.com": `.qu-wordBreak--break-word`,
   "edition.cnn.com": `.container__title, .container__headline, .headline__text, .image__caption, [data-type="Title"], .article__content ${DEFAULT_SELECTOR}`,
   "www.reuters.com": `#main-content [data-testid="Heading"], #main-content [data-testid="Body"], .article-body__content__17Yit ${DEFAULT_SELECTOR}`,
