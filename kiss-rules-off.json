@@ -110,6 +110,17 @@
     "textDiyStyle": ""
   },
   {
+    "pattern": "docs.arduino.cc",
+    "selector": "[class^=\"tutorial-module--left\"] :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
     "pattern": "edition.cnn.com",
     "selector": ".container__title, .container__headline, .headline__text, .image__caption, [data-type=\"Title\"], .article__content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",
@@ -143,6 +154,17 @@
     "textDiyStyle": ""
   },
   {
+    "pattern": "forum.arduino.cc",
+    "selector": ".top-row>.title, .featured-topic>.title, .link-top-line>.title, .category-description, .topic-excerpt, .fancy-title, .cooked :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
     "pattern": "forum.ru-board.com",
     "selector": ".tit, .dats, span.post :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",
@@ -156,6 +178,17 @@
   {
     "pattern": "github.com",
     "selector": ".markdown-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop=\"description\"], .markdown-title, bdi, .ws-pre-wrap, .status-meta, span.status-meta, .col-10.color-fg-muted, .TimelineItem-body, .pinned-item-list-item-content .color-fg-muted, .markdown-body td, .markdown-body th",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
+    "pattern": "greasyfork.org",
+    "selector": "h2, .script-link, .script-description, #additional-info :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -387,6 +420,17 @@
   {
     "pattern": "www.facebook.com",
     "selector": "[role=\"main\"] [dir=\"auto\"]",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
+    "pattern": "www.fmkorea.com",
+    "selector": "#container :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
