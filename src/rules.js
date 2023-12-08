@@ -66,6 +66,10 @@ const RULES_MAP = {
   "education.github.com": `${DEFAULT_SELECTOR}, a, summary, span.Button-content`,
   "blogs.windows.com": `${DEFAULT_SELECTOR}, .c-uhf-nav-link, figcaption`,
   "developer.apple.com/documentation/": `#main ${DEFAULT_SELECTOR}, #main .abstract .content, #main .abstract.content, #main .link span`,
+  "greasyfork.org": `h2, .script-link, .script-description, #additional-info ${DEFAULT_SELECTOR}`,
+  "www.fmkorea.com": `#container ${DEFAULT_SELECTOR}`,
+  "forum.arduino.cc": `.top-row>.title, .featured-topic>.title, .link-top-line>.title, .category-description, .topic-excerpt, .fancy-title, .cooked ${DEFAULT_SELECTOR}`,
+  "docs.arduino.cc": `[class^="tutorial-module--left"] ${DEFAULT_SELECTOR}`,
 };
 
 const globalRules = Object.entries(RULES_MAP)
