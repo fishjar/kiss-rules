@@ -276,7 +276,7 @@
   },
   {
     "pattern": "twitter.com",
-    "selector": "[data-testid=\"tweetText\"]",
+    "selector": "[data-testid=\"tweetText\"], [data-testid=\"birdwatch-pivot\"]>div.css-1rynq56",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
