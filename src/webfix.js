@@ -34,6 +34,12 @@ const webfixRules = [
     rootSelector: "",
     fixer: FIXER_BN,
   },
+  {
+    pattern: "ubuntuforums.org",
+    selector: ".postcontent",
+    rootSelector: "",
+    fixer: FIXER_BR,
+  },
 ];
 
 export default {
