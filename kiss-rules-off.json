@@ -462,6 +462,17 @@
     "textDiyStyle": ""
   },
   {
+    "pattern": "www.historydefined.net",
+    "selector": ".wp-element-caption, :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
     "pattern": "www.indiehackers.com",
     "selector": "h1, h3, .content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .feed-item__title-link",
     "translator": "*",
