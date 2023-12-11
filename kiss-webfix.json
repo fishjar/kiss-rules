@@ -28,5 +28,11 @@
     "selector": "div[data-message-author-role='user'] > div",
     "rootSelector": "",
     "fixer": "bn"
+  },
+  {
+    "pattern": "ubuntuforums.org",
+    "selector": ".postcontent",
+    "rootSelector": "",
+    "fixer": "br"
   }
 ]
