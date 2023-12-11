@@ -70,6 +70,7 @@ const RULES_MAP = {
   "www.fmkorea.com": `#container ${DEFAULT_SELECTOR}`,
   "forum.arduino.cc": `.top-row>.title, .featured-topic>.title, .link-top-line>.title, .category-description, .topic-excerpt, .fancy-title, .cooked ${DEFAULT_SELECTOR}`,
   "docs.arduino.cc": `[class^="tutorial-module--left"] ${DEFAULT_SELECTOR}`,
+  "www.historydefined.net": `.wp-element-caption, ${DEFAULT_SELECTOR}`,
 };
 
 const globalRules = Object.entries(RULES_MAP)
