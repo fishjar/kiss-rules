@@ -364,7 +364,7 @@
   },
   {
     "pattern": "www.bbc.com",
-    "selector": "h1, h2, .media__link, .media__summary, article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .ssrcss-y7krbn-Stack, .ssrcss-17zglt8-PromoHeadline, .ssrcss-18cjaf3-Headline, .gs-c-promo-heading__title, .gs-c-promo-summary, .media__content h3, .article__intro",
+    "selector": "h1, h2, .media__link, .media__summary, article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .ssrcss-y7krbn-Stack, .ssrcss-17zglt8-PromoHeadline, .ssrcss-18cjaf3-Headline, .gs-c-promo-heading__title, .gs-c-promo-summary, .media__content h3, .article__intro, .lx-c-summary-points>li",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
