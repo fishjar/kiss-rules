@@ -62,7 +62,7 @@ const RULES_MAP = {
   "mail.google.com": `${DEFAULT_SELECTOR}, h2[data-thread-perm-id], span[data-thread-id], div[data-message-id] div[class=''], .messageBody, #views`,
   "web.whatsapp.com": `.copyable-text > span`,
   "chat.openai.com": `div[data-message-author-role] > div ${DEFAULT_SELECTOR}`,
-  "forum.ru-board.com": `.tit, .dats, span.post ${DEFAULT_SELECTOR}`,
+  "forum.ru-board.com": `.tit, .dats, span.post, .lgf ${DEFAULT_SELECTOR}`,
   "education.github.com": `${DEFAULT_SELECTOR}, a, summary, span.Button-content`,
   "blogs.windows.com": `${DEFAULT_SELECTOR}, .c-uhf-nav-link, figcaption`,
   "developer.apple.com/documentation/": `#main ${DEFAULT_SELECTOR}, #main .abstract .content, #main .abstract.content, #main .link span`,
