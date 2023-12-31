@@ -89,7 +89,7 @@
   },
   {
     "pattern": "discord.com/channels/",
-    "selector": "div[id^=message-content]",
+    "selector": "li[id^=chat-messages] div[id^=message-content], div[class^=headerText], div[class^=name_], section[aria-label='Search Results'] div[id^=message-content]",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -166,7 +166,7 @@
   },
   {
     "pattern": "forum.ru-board.com",
-    "selector": ".tit, .dats, span.post :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "selector": ".tit, .dats, span.post, .lgf :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
