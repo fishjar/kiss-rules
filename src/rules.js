@@ -52,7 +52,7 @@ const RULES_MAP = {
   "www.phoronix.com": `article ${DEFAULT_SELECTOR}`,
   "wx2.qq.com": `.js_message_plain`,
   "app.slack.com/client/": `.p-rich_text_section, .c-message_attachment__text, .p-rich_text_list li`,
-  "discord.com/channels/": `div[id^=message-content]`,
+  "discord.com/channels/": `li[id^=chat-messages] div[id^=message-content], div[class^=headerText], div[class^=name_], section[aria-label='Search Results'] div[id^=message-content]`,
   "t.me/s/": `.js-message_text ${DEFAULT_SELECTOR}`,
   "web.telegram.org/k/": `.message, .bot-commands-list-element-description, .reply-markup-button-text`,
   "web.telegram.org/a/": `.message, .text-content, .bot-commands-list-element-description, .reply-markup-button-text`,
