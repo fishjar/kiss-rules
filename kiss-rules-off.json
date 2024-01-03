@@ -74,7 +74,7 @@
   {
     "pattern": "deno.land, docs.github.com",
     "selector": "main :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
-    "keepSelector": "",
+    "keepSelector": "code, img, svg",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -86,7 +86,7 @@
   {
     "pattern": "developer.apple.com/documentation/",
     "selector": "#main :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), #main .abstract .content, #main .abstract.content, #main .link span",
-    "keepSelector": "",
+    "keepSelector": "code, img, svg",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -110,7 +110,7 @@
   {
     "pattern": "doc.rust-lang.org",
     "selector": ".content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
-    "keepSelector": "",
+    "keepSelector": "code, img, svg",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -158,7 +158,7 @@
   {
     "pattern": "en.wikipedia.org",
     "selector": "h1, .mw-parser-output :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
-    "keepSelector": "",
+    "keepSelector": ".mwe-math-element",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -194,7 +194,7 @@
   {
     "pattern": "github.com",
     "selector": ".markdown-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop=\"description\"], .markdown-title, bdi, .ws-pre-wrap, .status-meta, span.status-meta, .col-10.color-fg-muted, .TimelineItem-body, .pinned-item-list-item-content .color-fg-muted, .markdown-body td, .markdown-body th",
-    "keepSelector": "",
+    "keepSelector": "code, img, svg",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -266,7 +266,7 @@
   {
     "pattern": "platform.openai.com/docs",
     "selector": ".docs-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
-    "keepSelector": "",
+    "keepSelector": "code, img, svg",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -290,7 +290,7 @@
   {
     "pattern": "stackoverflow.com",
     "selector": "h1, .s-prose p, .comment-body .comment-copy",
-    "keepSelector": "",
+    "keepSelector": "code, img, svg",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -338,7 +338,7 @@
   {
     "pattern": "twitter.com",
     "selector": "[data-testid=\"tweetText\"], [data-testid=\"birdwatch-pivot\"]>div.css-1rynq56",
-    "keepSelector": "",
+    "keepSelector": "img, a, .r-18u37iz, .css-175oi2r",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
