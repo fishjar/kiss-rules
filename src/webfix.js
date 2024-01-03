@@ -40,6 +40,18 @@ const webfixRules = [
     rootSelector: "",
     fixer: FIXER_BR,
   },
+  {
+    pattern: "play.google.com/store/apps/details",
+    selector: `[data-g-id="description"]`,
+    rootSelector: "",
+    fixer: FIXER_BR,
+  },
+  {
+    pattern: "news.yahoo.co.jp/articles/",
+    selector: `.sc-cTsKDU`,
+    rootSelector: "",
+    fixer: FIXER_BN,
+  },
 ];
 
 export default {
