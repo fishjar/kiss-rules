@@ -241,7 +241,7 @@
   },
   {
     "pattern": "news.google.com",
-    "selector": "[role=\"link\"], .DY5T1d, .ifw3f, :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "selector": ".gPFEn, .JtKRv, :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "keepSelector": "",
     "translator": "*",
     "fromLang": "*",
