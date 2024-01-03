@@ -34,5 +34,17 @@
     "selector": ".postcontent",
     "rootSelector": "",
     "fixer": "br"
+  },
+  {
+    "pattern": "play.google.com/store/apps/details",
+    "selector": "[data-g-id=\"description\"]",
+    "rootSelector": "",
+    "fixer": "br"
+  },
+  {
+    "pattern": "news.yahoo.co.jp/articles/",
+    "selector": ".sc-cTsKDU",
+    "rootSelector": "",
+    "fixer": "bn"
   }
 ]
