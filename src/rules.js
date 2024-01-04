@@ -15,7 +15,7 @@ const DEFAULT_RULE = {
 const DEFAULT_SELECTOR = `:is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)`;
 const RULES_MAP = {
   "www.google.com/search": [`h3, .IsZvec, .VwiC3b`],
-  "news.google.com": [`.gPFEn, .JtKRv, ${DEFAULT_SELECTOR}`],
+  "news.google.com": [`[data-n-tid], ${DEFAULT_SELECTOR}`],
   "www.foxnews.com": [
     `h1, h2, .title, .sidebar [data-type="Title"], .article-content ${DEFAULT_SELECTOR}; [data-spotim-module="conversation"]>div >>> [data-spot-im-class="message-text"] p,  [data-spot-im-class="message-text"]`,
   ],
