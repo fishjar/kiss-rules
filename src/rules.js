@@ -138,7 +138,7 @@ const RULES_MAP = {
     "chat.openai.com": [
         `div[data-message-author-role] > div ${DEFAULT_SELECTOR}`,
     ],
-    "forum.ru-board.com": [`.tit, .dats, span.post, .lgf ${DEFAULT_SELECTOR}`],
+    "forum.ru-board.com": [`.tit, .dats, .kiss-p, .lgf ${DEFAULT_SELECTOR}`],
     "education.github.com": [
         `${DEFAULT_SELECTOR}, a, summary, span.Button-content`,
     ],
