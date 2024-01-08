@@ -97,8 +97,8 @@
   },
   {
     "pattern": "discord.com/channels/",
-    "selector": "li[id^=chat-messages] div[id^=message-content], div[class^=headerText], div[class^=name_], section[aria-label='Search Results'] div[id^=message-content]",
-    "keepSelector": "",
+    "selector": "div[class^=message], div[class^=headerText], div[class^=name_], section[aria-label='Search Results'] div[id^=message-content], div[id^=message]",
+    "keepSelector": "li[class^='card'] div[class^='message'], [class^='embedFieldValue'], [data-list-item-id^='forum-channel-list'] div[class^='headerText']",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -181,7 +181,7 @@
   },
   {
     "pattern": "forum.ru-board.com",
-    "selector": ".tit, .dats, span.post, .lgf :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "selector": ".tit, .dats, .kiss-p, .lgf :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "keepSelector": "",
     "translator": "*",
     "fromLang": "*",
