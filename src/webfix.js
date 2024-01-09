@@ -52,6 +52,12 @@ const webfixRules = [
     rootSelector: "",
     fixer: FIXER_BN,
   },
+  {
+    pattern: "chromereleases.googleblog.com",
+    selector: `.post-content, .post-content > span, li > span`,
+    rootSelector: "",
+    fixer: FIXER_BR,
+  },
 ];
 
 export default {
