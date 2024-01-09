@@ -58,6 +58,12 @@ const webfixRules = [
     rootSelector: "",
     fixer: FIXER_BR,
   },
+  {
+    pattern: "mail.google.com",
+    selector: `div`,
+    rootSelector: "div[data-message-id] div[class='']",
+    fixer: FIXER_BR,
+  },
 ];
 
 export default {
