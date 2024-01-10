@@ -60,18 +60,6 @@
     "textDiyStyle": ""
   },
   {
-    "pattern": "chromereleases.googleblog.com",
-    "selector": ".title, .publishdate, p, i, .header-desc, .header-title, .text",
-    "keepSelector": "",
-    "translator": "*",
-    "fromLang": "*",
-    "toLang": "*",
-    "textStyle": "*",
-    "transOpen": "*",
-    "bgColor": "",
-    "textDiyStyle": ""
-  },
-  {
     "pattern": "deno.land, docs.github.com",
     "selector": "main :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "keepSelector": "code, img, svg",
@@ -229,7 +217,7 @@
   },
   {
     "pattern": "mail.google.com",
-    "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), h2[data-thread-perm-id], span[data-thread-id], div[data-message-id] div[class=''], .messageBody, #views",
+    "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), span[data-thread-id]",
     "keepSelector": "",
     "translator": "*",
     "fromLang": "*",

@@ -46,5 +46,17 @@
     "selector": ".sc-cTsKDU",
     "rootSelector": "",
     "fixer": "bn"
+  },
+  {
+    "pattern": "chromereleases.googleblog.com",
+    "selector": ".post-content, .post-content > span, li > span",
+    "rootSelector": "",
+    "fixer": "br"
+  },
+  {
+    "pattern": "mail.google.com",
+    "selector": "div",
+    "rootSelector": "div[data-message-id] div[class='']",
+    "fixer": "br"
   }
 ]
