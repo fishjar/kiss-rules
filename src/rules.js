@@ -105,7 +105,7 @@ const RULES_MAP = {
     "bard.google.com": [
         `.query-content ${DEFAULT_SELECTOR}, message-content ${DEFAULT_SELECTOR}`,
     ],
-    "www.bing.com": [
+    "www.bing.com, copilot.microsoft.com": [
         `.b_algoSlug, .rwrl_padref; .cib-serp-main >>> .ac-textBlock ${DEFAULT_SELECTOR}, .text-message-content div`,
     ],
     "www.phoronix.com": [`article ${DEFAULT_SELECTOR}`],
