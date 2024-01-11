@@ -64,6 +64,18 @@ const webfixRules = [
     rootSelector: "div[data-message-id] div[class='']",
     fixer: FIXER_BR,
   },
+  {
+    pattern: "web.telegram.org/k",
+    selector: `.message`,
+    rootSelector: "",
+    fixer: FIXER_BN_DIV,
+  },
+  {
+    pattern: "web.telegram.org/a",
+    selector: `.text-content`,
+    rootSelector: ".messages-container",
+    fixer: FIXER_BR_DIV,
+  },
 ];
 
 export default {
