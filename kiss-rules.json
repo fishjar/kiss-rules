@@ -336,9 +336,9 @@
     "textDiyStyle": ""
   },
   {
-    "pattern": "web.telegram.org/a/",
-    "selector": ".message, .text-content, .bot-commands-list-element-description, .reply-markup-button-text",
-    "keepSelector": "",
+    "pattern": "web.telegram.org/a",
+    "selector": ".text-content > .kiss-p",
+    "keepSelector": ".Reactions, .time, .peer-title, .document-wrapper, .message.spoilers-container custom-emoji-element",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -348,9 +348,9 @@
     "textDiyStyle": ""
   },
   {
-    "pattern": "web.telegram.org/k/",
-    "selector": ".message, .bot-commands-list-element-description, .reply-markup-button-text",
-    "keepSelector": "",
+    "pattern": "web.telegram.org/k",
+    "selector": "div.kiss-p",
+    "keepSelector": "div[class^=time], .peer-title, .document-wrapper, .message.spoilers-container custom-emoji-element, reactions-element",
     "translator": "*",
     "fromLang": "*",
     "toLang": "*",
@@ -396,7 +396,7 @@
     "textDiyStyle": ""
   },
   {
-    "pattern": "www.bing.com",
+    "pattern": "www.bing.com, copilot.microsoft.com",
     "selector": ".b_algoSlug, .rwrl_padref; .cib-serp-main >>> .ac-textBlock :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .text-message-content div",
     "keepSelector": "",
     "translator": "*",

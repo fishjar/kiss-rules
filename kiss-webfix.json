@@ -58,5 +58,17 @@
     "selector": "div",
     "rootSelector": "div[data-message-id] div[class='']",
     "fixer": "br"
+  },
+  {
+    "pattern": "web.telegram.org/k",
+    "selector": ".message",
+    "rootSelector": "",
+    "fixer": "bnToDiv"
+  },
+  {
+    "pattern": "web.telegram.org/a",
+    "selector": ".text-content",
+    "rootSelector": ".messages-container",
+    "fixer": "brToDiv"
   }
 ]
