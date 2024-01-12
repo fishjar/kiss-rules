@@ -105,7 +105,7 @@ const RULES_MAP = {
     "bard.google.com": [
         `.query-content ${DEFAULT_SELECTOR}, message-content ${DEFAULT_SELECTOR}`,
     ],
-    "www.bing.com": [
+    "www.bing.com, copilot.microsoft.com": [
         `.b_algoSlug, .rwrl_padref; .cib-serp-main >>> .ac-textBlock ${DEFAULT_SELECTOR}, .text-message-content div`,
     ],
     "www.phoronix.com": [`article ${DEFAULT_SELECTOR}`],
@@ -118,11 +118,13 @@ const RULES_MAP = {
         `li[class^='card'] div[class^='message'], [class^='embedFieldValue'], [data-list-item-id^='forum-channel-list'] div[class^='headerText']`,
     ],
     "t.me/s/": [`.js-message_text ${DEFAULT_SELECTOR}`],
-    "web.telegram.org/k/": [
-        `.message, .bot-commands-list-element-description, .reply-markup-button-text`,
+    "web.telegram.org/k": [
+        `div.kiss-p`,
+        `div[class^=time], .peer-title, .document-wrapper, .message.spoilers-container custom-emoji-element, reactions-element`,
     ],
-    "web.telegram.org/a/": [
-        `.message, .text-content, .bot-commands-list-element-description, .reply-markup-button-text`,
+    "web.telegram.org/a": [
+        `.text-content > .kiss-p`,
+        `.Reactions, .time, .peer-title, .document-wrapper, .message.spoilers-container custom-emoji-element`,
     ],
     "www.instagram.com/": [`h1, article span[dir=auto] > span[dir=auto], ._ab1y`],
     "www.instagram.com/p/,www.instagram.com/reels/": [
