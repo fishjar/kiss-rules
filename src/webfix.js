@@ -52,6 +52,30 @@ const webfixRules = [
     rootSelector: "",
     fixer: FIXER_BN,
   },
+  {
+    pattern: "chromereleases.googleblog.com",
+    selector: `.post-content, .post-content > span, li > span`,
+    rootSelector: "",
+    fixer: FIXER_BR,
+  },
+  {
+    pattern: "mail.google.com",
+    selector: `div`,
+    rootSelector: "div[data-message-id] div[class='']",
+    fixer: FIXER_BR,
+  },
+  {
+    pattern: "web.telegram.org/k",
+    selector: `.message`,
+    rootSelector: "",
+    fixer: FIXER_BN_DIV,
+  },
+  {
+    pattern: "web.telegram.org/a",
+    selector: `.text-content`,
+    rootSelector: ".messages-container",
+    fixer: FIXER_BR_DIV,
+  },
 ];
 
 export default {

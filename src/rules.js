@@ -106,7 +106,7 @@ const RULES_MAP = {
   "bard.google.com": [
     `.query-content ${DEFAULT_SELECTOR}, message-content ${DEFAULT_SELECTOR}`,
   ],
-  "www.bing.com": [
+  "www.bing.com, copilot.microsoft.com": [
     `.b_algoSlug, .rwrl_padref; .cib-serp-main >>> .ac-textBlock ${DEFAULT_SELECTOR}, .text-message-content div`,
   ],
   "www.phoronix.com": [`article ${DEFAULT_SELECTOR}`],
@@ -115,30 +115,28 @@ const RULES_MAP = {
     `.p-rich_text_section, .c-message_attachment__text, .p-rich_text_list li`,
   ],
   "discord.com/channels/": [
-    `li[id^=chat-messages] div[id^=message-content], div[class^=headerText], div[class^=name_], section[aria-label='Search Results'] div[id^=message-content]`,
+    `div[class^=message], div[class^=headerText], div[class^=name_], section[aria-label='Search Results'] div[id^=message-content], div[id^=message]`,
+    `li[class^='card'] div[class^='message'], [class^='embedFieldValue'], [data-list-item-id^='forum-channel-list'] div[class^='headerText']`,
   ],
   "t.me/s/": [`.js-message_text ${DEFAULT_SELECTOR}`],
-  "web.telegram.org/k/": [
-    `.message, .bot-commands-list-element-description, .reply-markup-button-text`,
+  "web.telegram.org/k": [
+    `div.kiss-p`,
+    `div[class^=time], .peer-title, .document-wrapper, .message.spoilers-container custom-emoji-element, reactions-element`,
   ],
-  "web.telegram.org/a/": [
-    `.message, .text-content, .bot-commands-list-element-description, .reply-markup-button-text`,
-  ],
-  "chromereleases.googleblog.com": [
-    `.title, .publishdate, p, i, .header-desc, .header-title, .text`,
+  "web.telegram.org/a": [
+    `.text-content > .kiss-p`,
+    `.Reactions, .time, .peer-title, .document-wrapper, .message.spoilers-container custom-emoji-element`,
   ],
   "www.instagram.com/": [`h1, article span[dir=auto] > span[dir=auto], ._ab1y`],
   "www.instagram.com/p/,www.instagram.com/reels/": [
     `h1, div[class='x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1uhb9sk x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1cy8zhl x1oa3qoh x1nhvcw1'] > span[class='x1lliihq x1plvlek xryxfnj x1n2onr6 x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye xvs91rp xo1l8bm x5n08af x10wh9bi x1wdrske x8viiok x18hxmgj'], span[class='x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs xt0psk2 x1i0vuye xvs91rp xo1l8bm x5n08af x10wh9bi x1wdrske x8viiok x18hxmgj']`,
   ],
-  "mail.google.com": [
-    `${DEFAULT_SELECTOR}, h2[data-thread-perm-id], span[data-thread-id], div[data-message-id] div[class=''], .messageBody, #views`,
-  ],
+  "mail.google.com": [`${DEFAULT_SELECTOR}, span[data-thread-id]`],
   "web.whatsapp.com": [`.copyable-text > span`],
   "chat.openai.com": [
     `div[data-message-author-role] > div ${DEFAULT_SELECTOR}`,
   ],
-  "forum.ru-board.com": [`.tit, .dats, span.post, .lgf ${DEFAULT_SELECTOR}`],
+  "forum.ru-board.com": [`.tit, .dats, .kiss-p, .lgf ${DEFAULT_SELECTOR}`],
   "education.github.com": [
     `${DEFAULT_SELECTOR}, a, summary, span.Button-content`,
   ],
