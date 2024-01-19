@@ -3,6 +3,7 @@ const DEFAULT_RULE = {
   pattern: "",
   selector: "",
   keepSelector: "",
+  terms: "",
   translator: GLOBAL_KEY,
   fromLang: GLOBAL_KEY,
   toLang: GLOBAL_KEY,
@@ -159,11 +160,12 @@ const RULES_MAP = {
 
 const globalRules = Object.entries(RULES_MAP)
   .sort((a, b) => a[0].localeCompare(b[0]))
-  .map(([pattern, [selector, keepSelector = ""]]) => ({
+  .map(([pattern, [selector, keepSelector = "", terms = ""]]) => ({
     ...DEFAULT_RULE,
     pattern,
     selector,
     keepSelector,
+    terms,
   }));
 const onRules = globalRules.map((rule) => ({ ...rule, transOpen: "true" }));
 const offRules = globalRules.map((rule) => ({ ...rule, transOpen: "false" }));
