@@ -65,6 +65,12 @@ const webfixRules = [
     fixer: FIXER_BR,
   },
   {
+    pattern: "news.ycombinator.com",
+    selector: `.toptext, .commtext`,
+    rootSelector: "",
+    fixer: FIXER_BR,
+  },
+  {
     pattern: "web.telegram.org/k",
     selector: `.message`,
     rootSelector: "",
