@@ -261,7 +261,7 @@
   },
   {
     "pattern": "news.ycombinator.com",
-    "selector": ".title, .commtext",
+    "selector": ".title, p",
     "keepSelector": "",
     "terms": "",
     "translator": "*",
