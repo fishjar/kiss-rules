@@ -88,7 +88,7 @@ const RULES_MAP = {
   ],
   "www.npmjs.com/package, developer.chrome.com/docs, medium.com, developers.cloudflare.com, react.dev, create-react-app.dev, pytorch.org":
     [`article ${DEFAULT_SELECTOR}`],
-  "news.ycombinator.com": [`.title, .commtext`],
+  "news.ycombinator.com": [`.title, p`],
   "github.com": [
     `.markdown-body ${DEFAULT_SELECTOR}, .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop="description"], .markdown-title, bdi, .ws-pre-wrap, .status-meta, span.status-meta, .col-10.color-fg-muted, .TimelineItem-body, .pinned-item-list-item-content .color-fg-muted, .markdown-body td, .markdown-body th`,
     `code, img, svg`,
