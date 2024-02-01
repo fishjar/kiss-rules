@@ -154,6 +154,20 @@ const RULES_MAP = {
   ],
   "docs.arduino.cc": [`[class^="tutorial-module--left"] ${DEFAULT_SELECTOR}`],
   "www.historydefined.net": [`.wp-element-caption, ${DEFAULT_SELECTOR}`],
+  "gobyexample.com": [`.docs p`, `code`],
+  "go.dev/tour": [`#left-side ${DEFAULT_SELECTOR}`, `code, img, svg >>> code`],
+  "pkg.go.dev": [
+    `.Documentation-content ${DEFAULT_SELECTOR}`,
+    `code, img, svg, a, span`,
+  ],
+  "docs.rs": [
+    `.docblock ${DEFAULT_SELECTOR}, .docblock-short`,
+    `code >>> code`,
+  ],
+  "randomnerdtutorials.com": [`article ${DEFAULT_SELECTOR}`],
+  "forum.arduino.cc": [
+    `.top-row>.title, .featured-topic>.title, .link-top-line>.title, .category-description, .topic-excerpt, .fancy-title, .cooked ${DEFAULT_SELECTOR}`,
+  ],
 };
 
 const globalRules = Object.entries(RULES_MAP)
