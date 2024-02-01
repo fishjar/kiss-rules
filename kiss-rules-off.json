@@ -130,6 +130,19 @@
     "textDiyStyle": ""
   },
   {
+    "pattern": "docs.rs",
+    "selector": ".docblock :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .docblock-short",
+    "keepSelector": "code >>> code",
+    "terms": "",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
     "pattern": "edition.cnn.com",
     "selector": ".container__title, .container__headline, .headline__text, .image__caption, [data-type=\"Title\"], .article__content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "keepSelector": "",
@@ -208,6 +221,32 @@
     "textDiyStyle": ""
   },
   {
+    "pattern": "go.dev/tour",
+    "selector": "#left-side :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "keepSelector": "code, img, svg >>> code",
+    "terms": "",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
+    "pattern": "gobyexample.com",
+    "selector": ".docs p",
+    "keepSelector": "code",
+    "terms": "",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
     "pattern": "greasyfork.org",
     "selector": "h2, .script-link, .script-description, #additional-info :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "keepSelector": "",
@@ -273,9 +312,35 @@
     "textDiyStyle": ""
   },
   {
+    "pattern": "pkg.go.dev",
+    "selector": ".Documentation-content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "keepSelector": "code, img, svg, a, span",
+    "terms": "",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
     "pattern": "platform.openai.com/docs",
     "selector": ".docs-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "keepSelector": "code, img, svg",
+    "terms": "",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "false",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
+    "pattern": "randomnerdtutorials.com",
+    "selector": "article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "keepSelector": "",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
