@@ -82,9 +82,9 @@ const RULES_MAP = {
     `h1, .mw-parser-output ${DEFAULT_SELECTOR}`,
     `.mwe-math-element`,
   ],
-  "stackoverflow.com": [
-    `h1, .s-prose p, .comment-body .comment-copy`,
-    `code, img, svg`,
+  "stackoverflow.com, serverfault.com, superuser.com, stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net": [
+    `.s-prose ${DEFAULT_SELECTOR}, .comment-copy, .question-hyperlink, .s-post-summary--content-title, .s-post-summary--content-excerpt`,
+    `code, img, svg, .math-container`,
   ],
   "www.npmjs.com/package, developer.chrome.com/docs, medium.com, developers.cloudflare.com, react.dev, create-react-app.dev, pytorch.org":
     [`article ${DEFAULT_SELECTOR}`],
