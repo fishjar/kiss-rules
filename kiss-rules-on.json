@@ -364,9 +364,9 @@
     "textDiyStyle": ""
   },
   {
-    "pattern": "stackoverflow.com",
-    "selector": "h1, .s-prose p, .comment-body .comment-copy",
-    "keepSelector": "code, img, svg",
+    "pattern": "stackoverflow.com, serverfault.com, superuser.com, stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net",
+    "selector": ".s-prose :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .comment-copy, .question-hyperlink, .s-post-summary--content-title, .s-post-summary--content-excerpt",
+    "keepSelector": "code, img, svg, .math-container",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
