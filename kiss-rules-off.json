@@ -716,7 +716,7 @@
   },
   {
     "pattern": "www.reddit.com",
-    "selector": "div:is(.tbIApBd2DM_drfZQJjIum, ._1zPvgKHteTOub9dKkvrOl4,.ULWj94BYSOqoJDetxgcnU),a:is([class^=\"_334yl59\"],[class^=\"_2GrMpxD\"]),h1,h2,h3,h4,h5,h6,p,button",
+    "selector": "[id^=\"post-title\"], :is([slot=\"text-body\"], [slot=\"comment\"]) :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), recent-posts h3, aside :is(span:has(>h2), p); shreddit-subreddit-header >>> :is(#title, #description)",
     "keepSelector": "",
     "terms": "",
     "translator": "*",
