@@ -57,7 +57,7 @@ const RULES_MAP = {
   ],
   "www.facebook.com": [`[role="main"] [dir="auto"]`],
   "www.reddit.com": [
-    `div:is(.tbIApBd2DM_drfZQJjIum, ._1zPvgKHteTOub9dKkvrOl4,.ULWj94BYSOqoJDetxgcnU),a:is([class^="_334yl59"],[class^="_2GrMpxD"]),h1,h2,h3,h4,h5,h6,p,button`,
+    `[id^="post-title"], :is([slot="text-body"], [slot="comment"]) ${DEFAULT_SELECTOR}, recent-posts h3, aside :is(span:has(>h2), p); shreddit-subreddit-header >>> :is(#title, #description)`,
   ],
   "www.quora.com": [`.qu-wordBreak--break-word`],
   "edition.cnn.com": [
