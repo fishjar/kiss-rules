@@ -56,8 +56,8 @@ const RULES_MAP = {
     `h1, .tMain [shape="rect"], .cMain [shape="rect"], .photo_art [shape="rect"], .mai_r [shape="rect"], .lisBox li, #Content ${DEFAULT_SELECTOR}`,
   ],
   "www.facebook.com": [`[role="main"] [dir="auto"]`],
-  "www.reddit.com": [
-    `[id^="post-title"], :is([slot="text-body"], [slot="comment"]) ${DEFAULT_SELECTOR}, recent-posts h3, aside :is(span:has(>h2), p); shreddit-subreddit-header >>> :is(#title, #description)`,
+  "www.reddit.com, new.reddit.com, sh.reddit.com": [
+    `:is(#AppRouter-main-content, #overlayScrollContainer) :is([class^=tbIA],[class^=_1zP],[class^=ULWj],[class^=_2Jj], [class^=_334],[class^=_2Gr],[class^=_7T4],[class^=_1WO], ${DEFAULT_SELECTOR}); [id^="post-title"], :is([slot="text-body"], [slot="comment"]) ${DEFAULT_SELECTOR}, recent-posts h3, aside :is(span:has(>h2), p); shreddit-subreddit-header >>> :is(#title, #description)`,
   ],
   "www.quora.com": [`.qu-wordBreak--break-word`],
   "edition.cnn.com": [
