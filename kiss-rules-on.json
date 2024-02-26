@@ -91,6 +91,19 @@
     "textDiyStyle": ""
   },
   {
+    "pattern": "developers.cloudflare.com",
+    "selector": "article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote), .WorkerStarter--description",
+    "keepSelector": "a[rel='noopener'], code",
+    "terms": "",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "true",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
     "pattern": "discord.com/channels/",
     "selector": "div[class^=message], div[class^=headerText], div[class^=name_], section[aria-label='Search Results'] div[id^=message-content], div[id^=message]",
     "keepSelector": "li[class^='card'] div[class^='message'], [class^='embedFieldValue'], [data-list-item-id^='forum-channel-list'] div[class^='headerText']",
@@ -302,6 +315,19 @@
     "pattern": "news.ycombinator.com",
     "selector": ".title, p",
     "keepSelector": "",
+    "terms": "",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "true",
+    "bgColor": "",
+    "textDiyStyle": ""
+  },
+  {
+    "pattern": "notebooks.githubusercontent.com/view/ipynb",
+    "selector": "#notebook-container :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
+    "keepSelector": "code, img, svg",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
@@ -676,7 +702,7 @@
     "textDiyStyle": ""
   },
   {
-    "pattern": "www.npmjs.com/package, developer.chrome.com/docs, medium.com, developers.cloudflare.com, react.dev, create-react-app.dev, pytorch.org",
+    "pattern": "www.npmjs.com/package, developer.chrome.com/docs, medium.com, react.dev, create-react-app.dev, pytorch.org",
     "selector": "article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)",
     "keepSelector": "",
     "terms": "",
