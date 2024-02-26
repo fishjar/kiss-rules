@@ -87,7 +87,7 @@ const RULES_MAP = {
       `.s-prose ${DEFAULT_SELECTOR}, .comment-copy, .question-hyperlink, .s-post-summary--content-title, .s-post-summary--content-excerpt`,
       `code, img, svg, .math-container`,
     ],
-  "www.npmjs.com/package, developer.chrome.com/docs, medium.com, developers.cloudflare.com, react.dev, create-react-app.dev, pytorch.org":
+  "www.npmjs.com/package, developer.chrome.com/docs, medium.com, react.dev, create-react-app.dev, pytorch.org":
     [`article ${DEFAULT_SELECTOR}`],
   "news.ycombinator.com": [`.title, p`],
   "github.com": [
@@ -170,8 +170,12 @@ const RULES_MAP = {
     `.top-row>.title, .featured-topic>.title, .link-top-line>.title, .category-description, .topic-excerpt, .fancy-title, .cooked ${DEFAULT_SELECTOR}`,
   ],
   "notebooks.githubusercontent.com/view/ipynb": [
-    `#notebook-container  ${DEFAULT_SELECTOR}`,
+    `#notebook-container ${DEFAULT_SELECTOR}`,
     `code, img, svg`,
+  ],
+  "developers.cloudflare.com": [
+    `article ${DEFAULT_SELECTOR}, .WorkerStarter--description`,
+    `a[rel='noopener'], code`,
   ],
 };
 
