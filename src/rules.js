@@ -82,10 +82,11 @@ const RULES_MAP = {
     `h1, .mw-parser-output ${DEFAULT_SELECTOR}`,
     `.mwe-math-element`,
   ],
-  "stackoverflow.com, serverfault.com, superuser.com, stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net": [
-    `.s-prose ${DEFAULT_SELECTOR}, .comment-copy, .question-hyperlink, .s-post-summary--content-title, .s-post-summary--content-excerpt`,
-    `code, img, svg, .math-container`,
-  ],
+  "stackoverflow.com, serverfault.com, superuser.com, stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net":
+    [
+      `.s-prose ${DEFAULT_SELECTOR}, .comment-copy, .question-hyperlink, .s-post-summary--content-title, .s-post-summary--content-excerpt`,
+      `code, img, svg, .math-container`,
+    ],
   "www.npmjs.com/package, developer.chrome.com/docs, medium.com, developers.cloudflare.com, react.dev, create-react-app.dev, pytorch.org":
     [`article ${DEFAULT_SELECTOR}`],
   "news.ycombinator.com": [`.title, p`],
@@ -167,6 +168,10 @@ const RULES_MAP = {
   "randomnerdtutorials.com": [`article ${DEFAULT_SELECTOR}`],
   "forum.arduino.cc": [
     `.top-row>.title, .featured-topic>.title, .link-top-line>.title, .category-description, .topic-excerpt, .fancy-title, .cooked ${DEFAULT_SELECTOR}`,
+  ],
+  "notebooks.githubusercontent.com/view/ipynb": [
+    `#notebook-container  ${DEFAULT_SELECTOR}`,
+    `code, img, svg`,
   ],
 };
 
