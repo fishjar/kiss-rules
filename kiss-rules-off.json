@@ -10,7 +10,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "bard.google.com",
@@ -23,7 +27,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "bearblog.dev, www.theverge.com, www.tampermonkey.net/documentation.php",
@@ -36,7 +44,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "blogs.windows.com",
@@ -49,7 +61,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "chat.openai.com",
@@ -62,7 +78,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "deno.land, docs.github.com",
@@ -75,7 +95,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "developer.apple.com/documentation/",
@@ -88,7 +112,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "developers.cloudflare.com",
@@ -101,7 +129,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "discord.com/channels/",
@@ -114,7 +146,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "doc.rust-lang.org",
@@ -127,7 +163,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "docs.arduino.cc",
@@ -140,7 +180,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "docs.rs",
@@ -153,7 +197,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "edition.cnn.com",
@@ -166,7 +214,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "education.github.com",
@@ -179,7 +231,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "en.wikipedia.org",
@@ -192,7 +248,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "forum.arduino.cc",
@@ -205,7 +265,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "forum.ru-board.com",
@@ -218,7 +282,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "github.com",
@@ -231,7 +299,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "go.dev/tour",
@@ -244,7 +316,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "gobyexample.com",
@@ -257,7 +333,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "greasyfork.org",
@@ -270,7 +350,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "m.youtube.com",
@@ -283,7 +367,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
+    "parentStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "mail.google.com",
@@ -296,7 +384,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "news.google.com",
@@ -309,7 +401,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "news.ycombinator.com",
@@ -322,7 +418,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "notebooks.githubusercontent.com/view/ipynb",
@@ -335,7 +435,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "pkg.go.dev",
@@ -348,7 +452,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "platform.openai.com/docs",
@@ -361,7 +469,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "randomnerdtutorials.com",
@@ -374,7 +486,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "restofworld.org",
@@ -387,7 +503,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "stackoverflow.com, serverfault.com, superuser.com, stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net",
@@ -400,7 +520,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "t.me/s/",
@@ -413,7 +537,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "themessenger.com",
@@ -426,7 +554,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "time.com",
@@ -439,7 +571,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "twitter.com",
@@ -452,7 +588,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "web.telegram.org/a",
@@ -465,7 +605,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "web.telegram.org/k",
@@ -478,7 +622,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "web.whatsapp.com",
@@ -491,7 +639,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.axios.com",
@@ -504,7 +656,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.bbc.com",
@@ -517,7 +673,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.bing.com, copilot.microsoft.com",
@@ -530,7 +690,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.bloomberg.com",
@@ -543,7 +707,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.chinadaily.com.cn",
@@ -556,7 +724,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.dw.com",
@@ -569,7 +741,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.facebook.com",
@@ -582,7 +758,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.fmkorea.com",
@@ -595,7 +775,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.foxnews.com",
@@ -608,7 +792,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.google.com/search",
@@ -621,7 +809,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.historydefined.net",
@@ -634,7 +826,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.indiehackers.com",
@@ -647,7 +843,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.instagram.com/",
@@ -660,7 +860,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.instagram.com/p/,www.instagram.com/reels/",
@@ -673,7 +877,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.newyorker.com",
@@ -686,7 +894,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.noemamag.com",
@@ -699,7 +911,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.npmjs.com/package, developer.chrome.com/docs, medium.com, react.dev, create-react-app.dev, pytorch.org",
@@ -712,7 +928,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.phoronix.com",
@@ -725,7 +945,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.quora.com",
@@ -738,7 +962,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.reddit.com, new.reddit.com, sh.reddit.com",
@@ -751,7 +979,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.reuters.com",
@@ -764,7 +996,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.semafor.com",
@@ -777,7 +1013,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.telegraph.co.uk, go.dev/doc/",
@@ -790,7 +1030,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.theguardian.com",
@@ -803,7 +1047,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "www.youtube.com",
@@ -816,7 +1064,11 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
+    "injectJs": "",
+    "injectCss": ""
   },
   {
     "pattern": "wx2.qq.com",
@@ -829,6 +1081,10 @@
     "textStyle": "*",
     "transOpen": "false",
     "bgColor": "",
-    "textDiyStyle": ""
+    "textDiyStyle": "",
+    "selectStyle": "",
+    "parentStyle": "",
+    "injectJs": "",
+    "injectCss": ""
   }
 ]
