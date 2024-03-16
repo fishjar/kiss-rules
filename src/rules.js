@@ -226,9 +226,6 @@ const RULES_MAP = {
   "randomnerdtutorials.com": {
     selector: `article ${DEFAULT_SELECTOR}`,
   },
-  "forum.arduino.cc": {
-    selector: `.top-row>.title, .featured-topic>.title, .link-top-line>.title, .category-description, .topic-excerpt, .fancy-title, .cooked ${DEFAULT_SELECTOR}`,
-  },
   "notebooks.githubusercontent.com/view/ipynb": {
     selector: `#notebook-container ${DEFAULT_SELECTOR}`,
     keepSelector: `code, img, svg`,
