@@ -246,32 +246,11 @@ const RULES_MAP = {
 
 const rules = Object.entries(RULES_MAP)
   .sort((a, b) => a[0].localeCompare(b[0]))
-  .map(
-    ([
-      pattern,
-      {
-        selector,
-        keepSelector = "",
-        terms = "",
-        selectStyle = "",
-        parentStyle = "",
-        injectCss = "",
-        fixerSelector = "",
-        fixerFunc = GLOBAL_KEY,
-      },
-    ]) => ({
-      ...DEFAULT_RULE,
-      pattern,
-      selector,
-      keepSelector,
-      terms,
-      selectStyle,
-      parentStyle,
-      injectCss,
-      fixerSelector,
-      fixerFunc,
-    })
-  );
+  .map(([pattern, rule]) => ({
+    ...DEFAULT_RULE,
+    ...rule,
+    pattern,
+  }));
 const onRules = rules.map((rule) => ({ ...rule, transOpen: "true" }));
 const offRules = rules.map((rule) => ({ ...rule, transOpen: "false" }));
 
