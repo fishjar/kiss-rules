@@ -14,7 +14,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "bard.google.com",
@@ -31,7 +39,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "bearblog.dev, www.theverge.com, www.tampermonkey.net/documentation.php",
@@ -48,7 +64,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "blogs.windows.com",
@@ -65,7 +89,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "chat.openai.com",
@@ -82,7 +114,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "deno.land, docs.github.com",
@@ -99,7 +139,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "developer.apple.com/documentation/",
@@ -116,7 +164,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "developers.cloudflare.com",
@@ -133,7 +189,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "discord.com/channels/",
@@ -150,7 +214,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "doc.rust-lang.org",
@@ -167,7 +239,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "docs.arduino.cc",
@@ -184,7 +264,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "docs.rs",
@@ -201,7 +289,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "edition.cnn.com",
@@ -218,7 +314,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "education.github.com",
@@ -235,7 +339,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "en.wikipedia.org",
@@ -252,7 +364,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "forum.arduino.cc",
@@ -269,7 +389,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "forum.ru-board.com",
@@ -286,7 +414,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "github.com",
@@ -303,7 +439,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "go.dev/tour",
@@ -320,7 +464,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "gobyexample.com",
@@ -337,7 +489,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "greasyfork.org",
@@ -354,7 +514,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "m.youtube.com",
@@ -371,7 +539,15 @@
     "selectStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
     "parentStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "mail.google.com",
@@ -388,7 +564,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "news.google.com",
@@ -405,7 +589,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "news.ycombinator.com",
@@ -422,7 +614,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "notebooks.githubusercontent.com/view/ipynb",
@@ -439,7 +639,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "pkg.go.dev",
@@ -456,7 +664,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "platform.openai.com/docs",
@@ -473,7 +689,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "randomnerdtutorials.com",
@@ -490,7 +714,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "restofworld.org",
@@ -507,7 +739,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "stackoverflow.com, serverfault.com, superuser.com, stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net",
@@ -524,7 +764,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "t.me/s/",
@@ -541,7 +789,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "themessenger.com",
@@ -558,7 +814,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "time.com",
@@ -575,7 +839,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "twitter.com",
@@ -592,7 +864,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "web.telegram.org/a",
@@ -609,7 +889,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "web.telegram.org/k",
@@ -626,7 +914,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "web.whatsapp.com",
@@ -643,7 +939,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.axios.com",
@@ -660,7 +964,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.bbc.com",
@@ -677,7 +989,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.bing.com, copilot.microsoft.com",
@@ -694,7 +1014,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.bloomberg.com",
@@ -711,7 +1039,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.chinadaily.com.cn",
@@ -728,7 +1064,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.dw.com",
@@ -745,7 +1089,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.facebook.com",
@@ -762,7 +1114,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.fmkorea.com",
@@ -779,7 +1139,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.foxnews.com",
@@ -796,7 +1164,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.google.com/search",
@@ -813,7 +1189,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.historydefined.net",
@@ -830,7 +1214,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.indiehackers.com",
@@ -847,7 +1239,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.instagram.com/",
@@ -864,7 +1264,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.instagram.com/p/,www.instagram.com/reels/",
@@ -881,7 +1289,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.newyorker.com",
@@ -898,7 +1314,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.noemamag.com",
@@ -915,7 +1339,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.npmjs.com/package, developer.chrome.com/docs, medium.com, react.dev, create-react-app.dev, pytorch.org",
@@ -932,7 +1364,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.phoronix.com",
@@ -949,7 +1389,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.quora.com",
@@ -966,7 +1414,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.reddit.com, new.reddit.com, sh.reddit.com",
@@ -983,7 +1439,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.reuters.com",
@@ -1000,7 +1464,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.semafor.com",
@@ -1017,7 +1489,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.telegraph.co.uk, go.dev/doc/",
@@ -1034,7 +1514,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.theguardian.com",
@@ -1051,7 +1539,15 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "www.youtube.com",
@@ -1068,7 +1564,15 @@
     "selectStyle": "",
     "parentStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   },
   {
     "pattern": "wx2.qq.com",
@@ -1085,6 +1589,14 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": ""
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   }
 ]
