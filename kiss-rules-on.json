@@ -1572,7 +1572,8 @@
     "detectRemote": "*",
     "skipLangs": [],
     "fixerSelector": "",
-    "fixerFunc": "*"
+    "fixerFunc": "*",
+    "electStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;"
   },
   {
     "pattern": "wx2.qq.com",
