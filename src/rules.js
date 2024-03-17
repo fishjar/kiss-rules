@@ -244,7 +244,7 @@ const RULES_MAP = {
   },
 };
 
-const globalRules = Object.entries(RULES_MAP)
+const rules = Object.entries(RULES_MAP)
   .sort((a, b) => a[0].localeCompare(b[0]))
   .map(
     ([
@@ -272,11 +272,11 @@ const globalRules = Object.entries(RULES_MAP)
       fixerFunc,
     })
   );
-const onRules = globalRules.map((rule) => ({ ...rule, transOpen: "true" }));
-const offRules = globalRules.map((rule) => ({ ...rule, transOpen: "false" }));
+const onRules = rules.map((rule) => ({ ...rule, transOpen: "true" }));
+const offRules = rules.map((rule) => ({ ...rule, transOpen: "false" }));
 
 export default {
-  "kiss-rules": globalRules,
+  "kiss-rules": rules,
   "kiss-rules-on": onRules,
   "kiss-rules-off": offRules,
 };
