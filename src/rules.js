@@ -139,7 +139,7 @@ const RULES_MAP = {
   },
   "www.youtube.com": {
     selector: `h1, #video-title, #content-text, #title, yt-attributed-string>span>span, #ytp-caption-window-container .ytp-caption-segment`,
-    electStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
+    selectStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
     parentStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
   },
   "bard.google.com": {
