@@ -1561,7 +1561,7 @@
     "transOpen": "*",
     "bgColor": "",
     "textDiyStyle": "",
-    "selectStyle": "",
+    "selectStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
     "parentStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
     "injectJs": "",
     "injectCss": "",
@@ -1572,8 +1572,7 @@
     "detectRemote": "*",
     "skipLangs": [],
     "fixerSelector": "",
-    "fixerFunc": "*",
-    "electStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;"
+    "fixerFunc": "*"
   },
   {
     "pattern": "wx2.qq.com",
