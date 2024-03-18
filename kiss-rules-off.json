@@ -527,7 +527,7 @@
   {
     "pattern": "m.youtube.com",
     "selector": ".slim-video-information-title .yt-core-attributed-string, .media-item-headline .yt-core-attributed-string, .comment-text .yt-core-attributed-string, .typography-body-2b .yt-core-attributed-string, #ytp-caption-window-container .ytp-caption-segment",
-    "keepSelector": "",
+    "keepSelector": "img, #content-text>a",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
@@ -1552,7 +1552,7 @@
   {
     "pattern": "www.youtube.com",
     "selector": "h1, #video-title, #content-text, #title, yt-attributed-string>span>span, #ytp-caption-window-container .ytp-caption-segment",
-    "keepSelector": "",
+    "keepSelector": "img, #content-text>a",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
