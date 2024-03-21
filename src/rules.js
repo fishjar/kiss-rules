@@ -1,4 +1,12 @@
+const FIXER_BR = "br";
+const FIXER_BN = "bn";
+const FIXER_BR_DIV = "brToDiv";
+const FIXER_BN_DIV = "bnToDiv";
+
 const GLOBAL_KEY = "*";
+
+const DEFAULT_SELECTOR = `:is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)`;
+const DEFAULT_KEEP_SELECTOR = `code, img, svg`;
 const DEFAULT_RULE = {
   pattern: "", // 匹配网址
   selector: "", // 选择器
@@ -25,7 +33,6 @@ const DEFAULT_RULE = {
   fixerFunc: GLOBAL_KEY, // 修复函数
 };
 
-const DEFAULT_SELECTOR = `:is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)`;
 const RULES_MAP = {
   "www.google.com/search": {
     selector: `h3, .IsZvec, .VwiC3b`,
@@ -95,18 +102,18 @@ const RULES_MAP = {
   },
   "deno.land, docs.github.com": {
     selector: `main ${DEFAULT_SELECTOR}`,
-    keepSelector: `code, img, svg`,
+    keepSelector: DEFAULT_KEEP_SELECTOR,
   },
   "doc.rust-lang.org": {
     selector: `.content ${DEFAULT_SELECTOR}`,
-    keepSelector: `code, img, svg`,
+    keepSelector: DEFAULT_KEEP_SELECTOR,
   },
   "www.indiehackers.com": {
     selector: `h1, h3, .content ${DEFAULT_SELECTOR}, .feed-item__title-link`,
   },
   "platform.openai.com/docs": {
     selector: `.docs-body ${DEFAULT_SELECTOR}`,
-    keepSelector: `code, img, svg`,
+    keepSelector: DEFAULT_KEEP_SELECTOR,
   },
   "en.wikipedia.org": {
     selector: `h1, .mw-parser-output ${DEFAULT_SELECTOR}`,
@@ -115,7 +122,7 @@ const RULES_MAP = {
   "stackoverflow.com, serverfault.com, superuser.com, stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net":
     {
       selector: `.s-prose ${DEFAULT_SELECTOR}, .comment-copy, .question-hyperlink, .s-post-summary--content-title, .s-post-summary--content-excerpt`,
-      keepSelector: `code, img, svg, .math-container`,
+      keepSelector: `${DEFAULT_KEEP_SELECTOR}, .math-container`,
     },
   "www.npmjs.com/package, developer.chrome.com/docs, medium.com, react.dev, create-react-app.dev, pytorch.org":
     {
@@ -123,10 +130,12 @@ const RULES_MAP = {
     },
   "news.ycombinator.com": {
     selector: `.title, p`,
+    fixerSelector: `.toptext, .commtext`,
+    fixerFunc: FIXER_BR,
   },
   "github.com": {
     selector: `.markdown-body ${DEFAULT_SELECTOR}, .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop="description"], .markdown-title, bdi, .ws-pre-wrap, .status-meta, span.status-meta, .col-10.color-fg-muted, .TimelineItem-body, .pinned-item-list-item-content .color-fg-muted, .markdown-body td, .markdown-body th`,
-    keepSelector: `code, img, svg`,
+    keepSelector: DEFAULT_KEEP_SELECTOR,
   },
   "twitter.com": {
     selector: `[data-testid="tweetText"], [data-testid="birdwatch-pivot"]>div.css-1rynq56`,
@@ -152,6 +161,8 @@ const RULES_MAP = {
   },
   "www.phoronix.com": {
     selector: `article ${DEFAULT_SELECTOR}`,
+    fixerSelector: `.content`,
+    fixerFunc: FIXER_BR,
   },
   "wx2.qq.com": {
     selector: `.js_message_plain`,
@@ -165,14 +176,20 @@ const RULES_MAP = {
   },
   "t.me/s/": {
     selector: `.js-message_text ${DEFAULT_SELECTOR}`,
+    fixerSelector: `.tgme_widget_message_text`,
+    fixerFunc: FIXER_BR,
   },
   "web.telegram.org/k": {
     selector: `div.kiss-p`,
     keepSelector: `div[class^=time], .peer-title, .document-wrapper, .message.spoilers-container custom-emoji-element, reactions-element`,
+    fixerSelector: `.message`,
+    fixerFunc: FIXER_BN_DIV,
   },
   "web.telegram.org/a": {
     selector: `.text-content > .kiss-p`,
     keepSelector: `.Reactions, .time, .peer-title, .document-wrapper, .message.spoilers-container custom-emoji-element`,
+    fixerSelector: `.text-content`,
+    fixerFunc: FIXER_BR_DIV,
   },
   "www.instagram.com/": {
     selector: `h1, article span[dir=auto] > span[dir=auto], ._ab1y`,
@@ -181,26 +198,34 @@ const RULES_MAP = {
     selector: `h1, div[class='x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1uhb9sk x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1cy8zhl x1oa3qoh x1nhvcw1'] > span[class='x1lliihq x1plvlek xryxfnj x1n2onr6 x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye xvs91rp xo1l8bm x5n08af x10wh9bi x1wdrske x8viiok x18hxmgj'], span[class='x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs xt0psk2 x1i0vuye xvs91rp xo1l8bm x5n08af x10wh9bi x1wdrske x8viiok x18hxmgj']`,
   },
   "mail.google.com": {
-    selector: `${DEFAULT_SELECTOR}, span[data-thread-id]`,
+    selector: `.a3s.aiL ${DEFAULT_SELECTOR}, span[data-thread-id]`,
+    fixerSelector: `.a3s.aiL`,
+    fixerFunc: FIXER_BR,
   },
   "web.whatsapp.com": {
     selector: `.copyable-text > span`,
   },
   "chat.openai.com": {
     selector: `div[data-message-author-role] > div ${DEFAULT_SELECTOR}`,
+    fixerSelector: `div[data-message-author-role='user'] > div`,
+    fixerFunc: FIXER_BN,
   },
   "forum.ru-board.com": {
     selector: `.tit, .dats, .kiss-p, .lgf ${DEFAULT_SELECTOR}`,
+    fixerSelector: `span.post`,
+    fixerFunc: FIXER_BR,
   },
   "education.github.com": {
     selector: `${DEFAULT_SELECTOR}, a, summary, span.Button-content`,
   },
   "blogs.windows.com": {
     selector: `${DEFAULT_SELECTOR}, .c-uhf-nav-link, figcaption`,
+    fixerSelector: `.t-content>div>ul>li`,
+    fixerFunc: FIXER_BR,
   },
   "developer.apple.com/documentation/": {
     selector: `#main ${DEFAULT_SELECTOR}, #main .abstract .content, #main .abstract.content, #main .link span`,
-    keepSelector: `code, img, svg`,
+    keepSelector: DEFAULT_KEEP_SELECTOR,
   },
   "greasyfork.org": {
     selector: `h2, .script-link, .script-description, #additional-info ${DEFAULT_SELECTOR}`,
@@ -227,7 +252,7 @@ const RULES_MAP = {
   },
   "pkg.go.dev": {
     selector: `.Documentation-content ${DEFAULT_SELECTOR}`,
-    keepSelector: `code, img, svg, a, span`,
+    keepSelector: `${DEFAULT_KEEP_SELECTOR}, a, span`,
   },
   "docs.rs": {
     selector: `.docblock ${DEFAULT_SELECTOR}, .docblock-short`,
@@ -238,11 +263,27 @@ const RULES_MAP = {
   },
   "notebooks.githubusercontent.com/view/ipynb": {
     selector: `#notebook-container ${DEFAULT_SELECTOR}`,
-    keepSelector: `code, img, svg`,
+    keepSelector: DEFAULT_KEEP_SELECTOR,
   },
   "developers.cloudflare.com": {
     selector: `article ${DEFAULT_SELECTOR}, .WorkerStarter--description`,
     keepSelector: `a[rel='noopener'], code`,
+  },
+  "ubuntuforums.org": {
+    fixerSelector: `.postcontent`,
+    fixerFunc: FIXER_BR,
+  },
+  "play.google.com/store/apps/details": {
+    fixerSelector: `[data-g-id="description"]`,
+    fixerFunc: FIXER_BR,
+  },
+  "news.yahoo.co.jp/articles/": {
+    fixerSelector: `.sc-cTsKDU`,
+    fixerFunc: FIXER_BN,
+  },
+  "chromereleases.googleblog.com": {
+    fixerSelector: `.post-content, .post-content > span, li > span`,
+    fixerFunc: FIXER_BR,
   },
 };
 
