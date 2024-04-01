@@ -5,8 +5,8 @@ const FIXER_BN_DIV = "bnToDiv";
 
 const GLOBAL_KEY = "*";
 
-const DEFAULT_SELECTOR = `:is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote)`;
-const DEFAULT_KEEP_SELECTOR = `code, img, svg`;
+const DEFAULT_SELECTOR = `:is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)`;
+const DEFAULT_KEEP_SELECTOR = `code, img, svg, pre`;
 const DEFAULT_RULE = {
   pattern: "", // 匹配网址
   selector: "", // 选择器
