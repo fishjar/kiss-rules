@@ -77,7 +77,7 @@ const RULES_MAP = {
     selector: `.ts-teaser-title a, .news-title a, .title a, .teaser-description a, .hbudab h3, .hbudab p, figcaption ,article ${DEFAULT_SELECTOR}`,
   },
   "www.bbc.com": {
-    selector: `[data-component="text-block"] ${DEFAULT_SELECTOR}, [data-testid="card-headline"], [data-testid="card-description"], [data-component="text-block"]>p, [data-component="caption-block"]>span, [data-component="headline-block"]>h1, [data-component="subheadline-block"]>h2, [data-testid="section-title-wrapper"]>h2`,
+    selector: `[data-component] ${DEFAULT_SELECTOR}, [data-testid="video-page-video-section"] ${DEFAULT_SELECTOR}, [data-testid="card-headline"], [data-testid="card-description"], [data-component="caption-block"]>span, [data-testid="section-title-wrapper"]>h2`,
   },
   "www.chinadaily.com.cn": {
     selector: `h1, .tMain [shape="rect"], .cMain [shape="rect"], .photo_art [shape="rect"], .mai_r [shape="rect"], .lisBox li, #Content ${DEFAULT_SELECTOR}`,
