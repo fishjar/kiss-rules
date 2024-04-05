@@ -1076,7 +1076,7 @@
   },
   {
     "pattern": "www.bbc.com",
-    "selector": "[data-component=\"text-block\"] :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), [data-testid=\"card-headline\"], [data-testid=\"card-description\"], [data-component=\"text-block\"]>p, [data-component=\"caption-block\"]>span, [data-component=\"headline-block\"]>h1, [data-component=\"subheadline-block\"]>h2, [data-testid=\"section-title-wrapper\"]>h2",
+    "selector": "[data-component] :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), [data-testid=\"video-page-video-section\"] :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), [data-testid=\"card-headline\"], [data-testid=\"card-description\"], [data-component=\"caption-block\"]>span, [data-testid=\"section-title-wrapper\"]>h2",
     "keepSelector": "",
     "terms": "",
     "translator": "*",
