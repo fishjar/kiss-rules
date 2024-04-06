@@ -148,7 +148,7 @@ const RULES_MAP = {
     keepSelector: `img, #content-text>a`,
   },
   "www.youtube.com": {
-    selector: `h1>.ytd-watch-metadata, #video-title, #title, #content-text>span, #ytp-caption-window-container, #snippet-text, .captions-text, #snippet-text, yt-attributed-string.ytd-text-inline-expander>span`,
+    selector: `h1>.ytd-watch-metadata, #video-title, #title, #content-text>span, #snippet-text, .captions-text, #snippet-text, yt-attributed-string.ytd-text-inline-expander>span`,
     keepSelector: `img, #content-text>a, span[dir="auto"], span:has(img)`,
     injectCss: `ytd-expander[should-use-number-of-lines][collapsed]>#content.ytd-expander { -webkit-line-clamp: unset; max-height: none; height: auto; }`,
   },
