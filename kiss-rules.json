@@ -1664,7 +1664,7 @@
     "selectStyle": "",
     "parentStyle": "",
     "injectJs": "",
-    "injectCss": "ytd-expander[should-use-number-of-lines][collapsed]>#content.ytd-expander { -webkit-line-clamp: unset; max-height: none; height: auto; }",
+    "injectCss": "",
     "transOnly": "*",
     "transTiming": "*",
     "transTag": "*",
