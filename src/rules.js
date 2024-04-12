@@ -35,7 +35,7 @@ const DEFAULT_RULE = {
 
 const RULES_MAP = {
   "www.google.com/search": {
-    selector: `h3, .IsZvec, .VwiC3b`,
+    selector: `h3, .IsZvec, .VwiC3b, .nDgy9d, .ITZIwc`,
   },
   "news.google.com": {
     selector: `[data-n-tid], ${DEFAULT_SELECTOR}`,
