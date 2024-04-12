@@ -1276,7 +1276,7 @@
   },
   {
     "pattern": "www.google.com/search",
-    "selector": "h3, .IsZvec, .VwiC3b",
+    "selector": "h3, .IsZvec, .VwiC3b, .nDgy9d, .ITZIwc",
     "keepSelector": "",
     "terms": "",
     "translator": "*",
