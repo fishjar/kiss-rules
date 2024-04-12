@@ -77,7 +77,7 @@ const RULES_MAP = {
     selector: `.ts-teaser-title a, .news-title a, .title a, .teaser-description a, .hbudab h3, .hbudab p, figcaption ,article ${DEFAULT_SELECTOR}`,
   },
   "www.bbc.com": {
-    selector: `h1, h2, .media__link, .media__summary, article ${DEFAULT_SELECTOR}, .ssrcss-y7krbn-Stack, .ssrcss-17zglt8-PromoHeadline, .ssrcss-18cjaf3-Headline, .gs-c-promo-heading__title, .gs-c-promo-summary, .media__content h3, .article__intro, .lx-c-summary-points>li`,
+    selector: `[data-component] ${DEFAULT_SELECTOR}, [data-testid="video-page-video-section"] ${DEFAULT_SELECTOR}, [data-testid="card-headline"], [data-testid="card-description"], [data-component="caption-block"]>span, [data-testid="section-title-wrapper"]>h2`,
   },
   "www.chinadaily.com.cn": {
     selector: `h1, .tMain [shape="rect"], .cMain [shape="rect"], .photo_art [shape="rect"], .mai_r [shape="rect"], .lisBox li, #Content ${DEFAULT_SELECTOR}`,
@@ -148,10 +148,10 @@ const RULES_MAP = {
     keepSelector: `img, #content-text>a`,
   },
   "www.youtube.com": {
-    selector: `h1, #video-title, #content-text, #title, yt-attributed-string>span>span, #ytp-caption-window-container .ytp-caption-segment`,
-    selectStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
-    parentStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
-    keepSelector: `img, #content-text>a`,
+    selector: `h1>.ytd-watch-metadata, #video-title, #title, #content-text>span, #snippet-text, yt-attributed-string.ytd-text-inline-expander>span, .ytp-caption-segment`, // 翻译字幕
+    // selector: `h1>.ytd-watch-metadata, #video-title, #title, #content-text>span, #snippet-text, yt-attributed-string.ytd-text-inline-expander>span`, // 不翻译字幕
+    keepSelector: `img, #content-text>a, span[dir="auto"], span:has(img)`,
+    // injectCss: `ytd-expander[should-use-number-of-lines][collapsed]>#content.ytd-expander { -webkit-line-clamp: unset; max-height: none; height: auto; }`,
   },
   "bard.google.com": {
     selector: `.query-content ${DEFAULT_SELECTOR}, message-content ${DEFAULT_SELECTOR}`,
