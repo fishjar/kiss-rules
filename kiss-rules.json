@@ -1652,7 +1652,7 @@
   {
     "pattern": "www.youtube.com",
     "selector": "h1>.ytd-watch-metadata, #video-title, #title, #content-text>span, #snippet-text, yt-attributed-string.ytd-text-inline-expander>span, span.caption-visual-line>span, #chat-messages #message, .ytp-caption-segment",
-    "keepSelector": "img, #content-text>a, span[dir=\"auto\"], span:has(img)",
+    "keepSelector": "img, #content-text>a, span[dir=\"auto\"]:has(a), span:has(img)",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
