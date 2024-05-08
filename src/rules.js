@@ -150,7 +150,7 @@ const RULES_MAP = {
   "www.youtube.com": {
     selector: `h1>.ytd-watch-metadata, #video-title, #title, #content-text>span, #snippet-text, yt-attributed-string.ytd-text-inline-expander>span, span.caption-visual-line>span, #chat-messages #message, .ytp-caption-segment`, // 翻译字幕
     // selector: `h1>.ytd-watch-metadata, #video-title, #title, #content-text>span, #snippet-text, yt-attributed-string.ytd-text-inline-expander>span, span.caption-visual-line>span, #chat-messages #message`, // 不翻译字幕
-    keepSelector: `img, #content-text>a, span[dir="auto"], span:has(img)`,
+    keepSelector: `img, #content-text>a, span[dir="auto"]:has(a), span:has(img)`,
     // injectCss: `ytd-expander[should-use-number-of-lines][collapsed]>#content.ytd-expander { -webkit-line-clamp: unset; max-height: none; height: auto; }`,
   },
   "bard.google.com": {
