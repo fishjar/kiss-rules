@@ -925,7 +925,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "twitter.com",
+    "pattern": "twitter.com, https://x.com/",
     "selector": "[data-testid=\"tweetText\"], [data-testid=\"birdwatch-pivot\"]>div.css-1rynq56",
     "keepSelector": "img, a, .r-18u37iz, .css-175oi2r",
     "terms": "",
