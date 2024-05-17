@@ -137,7 +137,7 @@ const RULES_MAP = {
     selector: `.markdown-body ${DEFAULT_SELECTOR}, .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop="description"], .markdown-title, bdi, .ws-pre-wrap, .status-meta, span.status-meta, .col-10.color-fg-muted, .TimelineItem-body, .pinned-item-list-item-content .color-fg-muted, .markdown-body td, .markdown-body th`,
     keepSelector: DEFAULT_KEEP_SELECTOR,
   },
-  "twitter.com": {
+  "twitter.com, https://x.com/": {
     selector: `[data-testid="tweetText"], [data-testid="birdwatch-pivot"]>div.css-1rynq56`,
     keepSelector: `img, a, .r-18u37iz, .css-175oi2r`,
   },
