@@ -152,7 +152,7 @@
   {
     "pattern": "deno.land, docs.github.com",
     "selector": "main :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
-    "keepSelector": "code, img, svg, pre",
+    "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
@@ -177,7 +177,7 @@
   {
     "pattern": "developer.apple.com/documentation/",
     "selector": "#main :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), #main .abstract .content, #main .abstract.content, #main .link span",
-    "keepSelector": "code, img, svg, pre",
+    "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
@@ -250,9 +250,9 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "doc.rust-lang.org",
+    "pattern": "doc.rust-lang.org/book/, doc.rust-lang.org/cargo/, doc.rust-lang.org/rust-by-example/, doc.rust-lang.org/embedded-book/",
     "selector": ".content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
-    "keepSelector": "code, img, svg, pre",
+    "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
@@ -300,9 +300,9 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "docs.rs",
+    "pattern": "docs.rs, doc.rust-lang.org/std/, doc.rust-lang.org/nightly/, doc.rust-lang.org/stable/",
     "selector": ".docblock :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .docblock-short",
-    "keepSelector": "code >>> code",
+    "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
@@ -452,7 +452,7 @@
   {
     "pattern": "github.com",
     "selector": ".markdown-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop=\"description\"], .markdown-title, bdi, .ws-pre-wrap, .status-meta, span.status-meta, .col-10.color-fg-muted, .TimelineItem-body, .pinned-item-list-item-content .color-fg-muted, .markdown-body td, .markdown-body th",
-    "keepSelector": "code, img, svg, pre",
+    "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
@@ -477,7 +477,7 @@
   {
     "pattern": "go.dev/tour",
     "selector": "#left-side :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
-    "keepSelector": "code, img, svg >>> code",
+    "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
@@ -677,7 +677,7 @@
   {
     "pattern": "notebooks.githubusercontent.com/view/ipynb",
     "selector": "#notebook-container :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
-    "keepSelector": "code, img, svg, pre",
+    "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
@@ -702,7 +702,7 @@
   {
     "pattern": "pkg.go.dev",
     "selector": ".Documentation-content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
-    "keepSelector": "code, img, svg, pre, a, span",
+    "keepSelector": "code, img, svg, pre, a:has(code), a, span",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
@@ -727,7 +727,7 @@
   {
     "pattern": "platform.openai.com/docs",
     "selector": ".docs-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
-    "keepSelector": "code, img, svg, pre",
+    "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
@@ -827,7 +827,7 @@
   {
     "pattern": "stackoverflow.com, serverfault.com, superuser.com, stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net",
     "selector": ".s-prose :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .comment-copy, .question-hyperlink, .s-post-summary--content-title, .s-post-summary--content-excerpt",
-    "keepSelector": "code, img, svg, pre, .math-container",
+    "keepSelector": "code, img, svg, pre, a:has(code), .math-container",
     "terms": "",
     "translator": "*",
     "fromLang": "*",
