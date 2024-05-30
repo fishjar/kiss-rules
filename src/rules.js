@@ -6,7 +6,7 @@ const FIXER_BN_DIV = "bnToDiv";
 const GLOBAL_KEY = "*";
 
 const DEFAULT_SELECTOR = `:is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)`;
-const DEFAULT_KEEP_SELECTOR = `code, img, svg, pre`;
+const DEFAULT_KEEP_SELECTOR = `code, img, svg, pre, a:has(code)`;
 const DEFAULT_RULE = {
   pattern: "", // 匹配网址
   selector: "", // 选择器
@@ -102,10 +102,6 @@ const RULES_MAP = {
   },
   "deno.land, docs.github.com": {
     selector: `main ${DEFAULT_SELECTOR}`,
-    keepSelector: DEFAULT_KEEP_SELECTOR,
-  },
-  "doc.rust-lang.org": {
-    selector: `.content ${DEFAULT_SELECTOR}`,
     keepSelector: DEFAULT_KEEP_SELECTOR,
   },
   "www.indiehackers.com": {
@@ -248,15 +244,19 @@ const RULES_MAP = {
   },
   "go.dev/tour": {
     selector: `#left-side ${DEFAULT_SELECTOR}`,
-    keepSelector: `code, img, svg >>> code`,
+    keepSelector: DEFAULT_KEEP_SELECTOR,
   },
   "pkg.go.dev": {
     selector: `.Documentation-content ${DEFAULT_SELECTOR}`,
     keepSelector: `${DEFAULT_KEEP_SELECTOR}, a, span`,
   },
-  "docs.rs": {
+  "docs.rs, doc.rust-lang.org/std/, doc.rust-lang.org/nightly/, doc.rust-lang.org/stable/": {
     selector: `.docblock ${DEFAULT_SELECTOR}, .docblock-short`,
-    keepSelector: `code >>> code`,
+    keepSelector: DEFAULT_KEEP_SELECTOR,
+  },
+  "doc.rust-lang.org/book/, doc.rust-lang.org/cargo/, doc.rust-lang.org/rust-by-example/, doc.rust-lang.org/embedded-book/": {
+    selector: `.content ${DEFAULT_SELECTOR}`,
+    keepSelector: DEFAULT_KEEP_SELECTOR,
   },
   "randomnerdtutorials.com": {
     selector: `article ${DEFAULT_SELECTOR}`,
