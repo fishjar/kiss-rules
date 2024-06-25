@@ -285,6 +285,26 @@ const RULES_MAP = {
     fixerSelector: `.post-content, .post-content > span, li > span`,
     fixerFunc: FIXER_BR,
   },
+  "fearlessrevolution.com": {
+    selector: `.page-body ${DEFAULT_SELECTOR}, .topictitle, .forumtitle`,
+    fixerSelector: ".content",
+    fixerFunc: FIXER_BR,
+  },
+  "www.unknowncheats.me": {
+    selector: `${DEFAULT_SELECTOR}, .tcat, [id^="thread_title_"]`,
+    fixerSelector: "[id^='post_message_'],  [id^='post_message_'] table div",
+    fixerFunc: FIXER_BR,
+  },
+  "xdaforums.com": {
+    selector: `.p-body-main ${DEFAULT_SELECTOR}, .title, .structItem-title`,
+    fixerSelector: ".bbWrapper, .bbCodeBlock-expandContent",
+    fixerFunc: FIXER_BR,
+  },
+  "steamcommunity.com": {
+    selector: `${DEFAULT_SELECTOR}, .topic, .forum_topic_name, .discussions_forumlist_forumname`,
+    fixerSelector: ".content, .commentthread_comment_text",
+    fixerFunc: FIXER_BR,
+  },
 };
 
 const rules = Object.entries(RULES_MAP)
