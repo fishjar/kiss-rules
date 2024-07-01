@@ -1601,7 +1601,7 @@
   },
   {
     "pattern": "www.reuters.com",
-    "selector": "#main-content [data-testid=\"Heading\"], #main-content [data-testid=\"Body\"], .article-body__content__17Yit :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
+    "selector": "[data-testid=\"Heading\"], [data-testid=\"Body\"], [data-testid^=\"paragraph\"], .maintext, :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
     "translator": "*",
