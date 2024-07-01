@@ -95,7 +95,7 @@ const RULES_MAP = {
     selector: `.container__title, .container__headline, .headline__text, .image__caption, [data-type="Title"], .article__content ${DEFAULT_SELECTOR}`,
   },
   "www.reuters.com": {
-    selector: `#main-content [data-testid="Heading"], #main-content [data-testid="Body"], .article-body__content__17Yit ${DEFAULT_SELECTOR}`,
+    selector: `[data-testid="Heading"], [data-testid="Body"], [data-testid^="paragraph"], .maintext, ${DEFAULT_SELECTOR}`,
   },
   "www.bloomberg.com": {
     selector: `[data-component="headline"], [data-component="related-item-headline"], [data-component="title"], article ${DEFAULT_SELECTOR}`,
