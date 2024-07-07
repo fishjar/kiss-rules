@@ -305,6 +305,11 @@ const RULES_MAP = {
     fixerSelector: ".content, .commentthread_comment_text",
     fixerFunc: FIXER_BR,
   },
+  "forums.zotero.org": {
+    selector: `h1, h3, .Title, .Summary, .Message ${DEFAULT_SELECTOR}`,
+    fixerSelector: ".Message",
+    fixerFunc: FIXER_BR,
+  },
 };
 
 const rules = Object.entries(RULES_MAP)
