@@ -310,6 +310,34 @@ const RULES_MAP = {
     fixerSelector: ".Message",
     fixerFunc: FIXER_BR,
   },
+  "www.mdpi.com": {
+    selector: ":is(li:not(.menu-item):not(.accordion-navigation):not(.accordion-direct-link), p, h1, h2, h3, h4, h5, h6, dd, blockquote, .affiliation-name, .art-abstract, .html-p, .html-caption, .pubhistory, .belongsTo, .html-gwd-group, .html-fig_description, .html-table_wrap_discription)",
+    keepSelector: "code, img, svg, .math, a:has(code), sup, sub, .html-disp-formula-info, .MathJax",
+  },
+  "pubs.acs.org/doi": {
+    selector: ":is(li:not(.header_mainmenu_current):not(.share__item), p:not([class^=\"article_\"]), h1, h2:not(.fig-label), h3, h4, h5, h6, dd, blockquote, .title2, .kiss-p",
+    keepSelector: "code, img, svg, .math, a:has(code), sup, sub, .MathJax",
+    fixerSelector: ".NLM_p",
+    fixerFunc: FIXER_BR,
+  },
+  "www.science.org/doi": {
+    selector: ":is(li:not(ul.collateral-pill li):not(.nav-item):not(.list-inline-item), p:not(.footer__copyright p), h1, h2, h3, h4, h5, h6, dd, blockquote, [role=\"paragraph\"], [role=\"doc-footnote\"], .meta-panel__overline, div.caption)",
+    keepSelector: "code, img, svg, .math, a:has(code), sup, sub, .MathJax",
+  },
+  "www.pnas.org/doi": {
+    selector: ":is(li:not(ul.collateral-pill li):not(.nav-item):not(.list-inline-item), p:not(.footer__copyright p), h1, h2, h3, h4, h5, h6, dd, blockquote, [role=\"paragraph\"], .meta-panel__subtype, figcaption)",
+    keepSelector: "code, img, svg, .math, a:has(code), sup, sub, .MathJax",
+  },
+  "www.cell.com/*/fulltext": {
+    selector: ":is(li:not(ul.collateral-pill li):not(ul.article-tools li):not(header li):not(.axel-related-articles__items li):not(.footer li), p:not(header p), h1, h2, h3, h4, h5, h6, dd, blockquote, [role=\"paragraph\"], figcaption>div:not(.accordion), .figure-viewer__title)",
+    keepSelector: "code, img, svg, .math, a:has(code), .MathJax",
+    /* TODO: 无法保留上标或者下标，因为保留后部分段落无法翻译 */
+  },
+  "www.sciencedirect.com/*/article": {
+    selector: ":is(li:not(header li):not(.accessbar li):not(figure li):not(footer li), p:not(#banner>div>p):not(footer p), h1, h2, h3, h4, h5, h6, dd, blockquote, section>div, #abstracts div, .keyword)",
+    keepSelector: "code, img, svg, .math, a:has(code), sup, sub, .MathJax",
+    /* TODO: 部分段落无法翻译，无论sup, sub是否保留 */
+  },
 };
 
 const rules = Object.entries(RULES_MAP)
