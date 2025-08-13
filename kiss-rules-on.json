@@ -201,7 +201,7 @@
   },
   {
     "pattern": "developers.cloudflare.com",
-    "selector": "article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .WorkerStarter--description",
+    "selector": ".content-panel :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .WorkerStarter--description, tr > td",
     "keepSelector": "a[rel='noopener'], code",
     "terms": "",
     "translator": "*",
