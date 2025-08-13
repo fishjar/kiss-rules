@@ -266,7 +266,7 @@ const RULES_MAP = {
     keepSelector: DEFAULT_KEEP_SELECTOR,
   },
   "developers.cloudflare.com": {
-    selector: `article ${DEFAULT_SELECTOR}, .WorkerStarter--description`,
+    selector: `.content-panel ${DEFAULT_SELECTOR}, .WorkerStarter--description, tr > td`,
     keepSelector: `a[rel='noopener'], code`,
   },
   "ubuntuforums.org": {
