@@ -339,6 +339,9 @@ const RULES_MAP = {
     keepSelector: "code, img, svg, .math, a:has(code), sup, sub, .MathJax",
     /* TODO: 部分段落无法翻译，无论sup, sub是否保留 */
   },
+  "www.cnbc.com": {
+    selector: `${DEFAULT_SELECTOR}, .LatestNews-headline, .PackageItem-link, .FeaturedCard-packagedCardTitle>a, .SecondaryCard-headline>a, .RiverHeadline-headline>a, .Card-title, .TrendingNowItem-title, .InlineImage-imageEmbedCaption, .MostPopular-styles-makeit-linkWrap--G5cKW>a, a>.video-title, .MarketsBanner-teaser>a`,
+  },
 };
 
 const rules = Object.entries(RULES_MAP)
