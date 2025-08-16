@@ -1901,7 +1901,7 @@
   },
   {
     "pattern": "www.youtube.com",
-    "selector": "h1>.ytd-watch-metadata, #video-title, #title, #content-text>span, #snippet-text, yt-attributed-string.ytd-text-inline-expander>span, span.caption-visual-line>span, #chat-messages #message, .ytp-caption-segment",
+    "selector": "h1>.ytd-watch-metadata, .yt-lockup-metadata-view-model-wiz__title, .shortsLockupViewModelHostMetadataTitle>a, #content-text>span, yt-attributed-string.ytd-text-inline-expander>span, #chat-messages #message, #video-title, #title,  #snippet-text, span.caption-visual-line>span, .ytp-caption-segment",
     "keepSelector": "img, #content-text>a, span[dir=\"auto\"]:has(a), span:has(img), [role=\"tooltip\"]",
     "terms": "",
     "translator": "*",
@@ -1922,7 +1922,8 @@
     "detectRemote": "*",
     "skipLangs": [],
     "fixerSelector": "",
-    "fixerFunc": "*"
+    "fixerFunc": "*",
+    "transEndHook": "(node) => {  node.parentElement.parentElement.style.cssText += \"-webkit-line-clamp: unset; max-height: none; height: auto;\";}"
   },
   {
     "pattern": "wx2.qq.com",
