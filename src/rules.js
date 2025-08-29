@@ -342,6 +342,11 @@ const RULES_MAP = {
   "www.cnbc.com": {
     selector: `${DEFAULT_SELECTOR}, .LatestNews-headline, .PackageItem-link, .FeaturedCard-packagedCardTitle>a, .SecondaryCard-headline>a, .RiverHeadline-headline>a, .Card-title, .TrendingNowItem-title, .InlineImage-imageEmbedCaption, .MostPopular-styles-makeit-linkWrap--G5cKW>a, a>.video-title, .MarketsBanner-teaser>a`,
   },
+  "supermemo.guru": {
+    selector: `${DEFAULT_SELECTOR}, .bs-callout`,
+    fixerSelector: "td, .bs-callout-supermemo",
+    fixerFunc: FIXER_BR,
+  },
 };
 
 const rules = Object.entries(RULES_MAP)
