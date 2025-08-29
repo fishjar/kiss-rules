@@ -347,6 +347,10 @@ const RULES_MAP = {
     fixerSelector: "td, .bs-callout-supermemo",
     fixerFunc: FIXER_BR,
   },
+  "www.twitch.tv": {
+    selector: `${DEFAULT_SELECTOR}, [data-a-target='chat-line-message-body']`,
+    keepSelector: ".mention-fragment",
+  },
 };
 
 const rules = Object.entries(RULES_MAP)
