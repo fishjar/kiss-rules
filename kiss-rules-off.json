@@ -1976,7 +1976,7 @@
   },
   {
     "pattern": "www.youtube.com",
-    "selector": "h1>.ytd-watch-metadata, .yt-lockup-metadata-view-model-wiz__title, .shortsLockupViewModelHostMetadataTitle>a, #content-text>span, yt-attributed-string.ytd-text-inline-expander>span, #chat-messages #message, #video-title, #title,  #snippet-text, span.caption-visual-line>span, .ytp-caption-segment",
+    "selector": "h1>.ytd-watch-metadata, .yt-lockup-metadata-view-model-wiz__title, .shortsLockupViewModelHostMetadataTitle>a, #content-text>span, yt-attributed-string.ytd-text-inline-expander>span, #chat-messages #message, #video-title, #title,  #snippet-text, span.caption-visual-line>span, .ytp-caption-segment, .yt-lockup-metadata-view-model__title>span",
     "keepSelector": "img, #content-text>a, span[dir=\"auto\"]:has(a), span:has(img), [role=\"tooltip\"]",
     "terms": "",
     "translator": "*",
