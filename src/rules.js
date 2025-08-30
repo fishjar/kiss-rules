@@ -148,7 +148,7 @@ const RULES_MAP = {
     // selector: `h1>.ytd-watch-metadata, #video-title, #title, #content-text>span, #snippet-text, yt-attributed-string.ytd-text-inline-expander>span, span.caption-visual-line>span, #chat-messages #message`, // 不翻译字幕
     keepSelector: `img, #content-text>a, span[dir="auto"]:has(a), span:has(img), [role="tooltip"]`,
     // injectCss: `ytd-expander[should-use-number-of-lines][collapsed]>#content.ytd-expander { -webkit-line-clamp: unset; max-height: none; height: auto; }`,
-    transEndHook: `(node) => {  node.parentElement.parentElement.style.cssText += "-webkit-line-clamp: unset; max-height: none; height: auto;";}`,
+    transEndHook: `(node, text) => {  node.parentElement.parentElement.style.cssText += "-webkit-line-clamp: unset; max-height: none; height: auto;";return text;}`,
   },
   "bard.google.com": {
     selector: `.query-content ${DEFAULT_SELECTOR}, message-content ${DEFAULT_SELECTOR}`,
