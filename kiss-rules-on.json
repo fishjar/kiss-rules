@@ -1998,7 +1998,7 @@
     "skipLangs": [],
     "fixerSelector": "",
     "fixerFunc": "*",
-    "transEndHook": "(node) => {  node.parentElement.parentElement.style.cssText += \"-webkit-line-clamp: unset; max-height: none; height: auto;\";}"
+    "transEndHook": "(node, text) => {  node.parentElement.parentElement.style.cssText += \"-webkit-line-clamp: unset; max-height: none; height: auto;\";return text;}"
   },
   {
     "pattern": "wx2.qq.com",
