@@ -115,7 +115,7 @@ const RULES_MAP = {
     selector: `h1, .mw-parser-output ${DEFAULT_SELECTOR}`,
     keepSelector: `.mwe-math-element`,
   },
-  "stackoverflow.com, serverfault.com, superuser.com, stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net":
+  "stackoverflow.com, serverfault.com, superuser.com, *.stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net":
     {
       selector: `.s-prose ${DEFAULT_SELECTOR}, .comment-copy, .question-hyperlink, .s-post-summary--content-title, .s-post-summary--content-excerpt`,
       keepSelector: `${DEFAULT_KEEP_SELECTOR}, .math-container`,
