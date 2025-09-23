@@ -117,7 +117,7 @@ const RULES_MAP = {
   },
   "stackoverflow.com, serverfault.com, superuser.com, *.stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net":
     {
-      selector: `.s-prose ${DEFAULT_SELECTOR}, .comment-copy, .question-hyperlink, .s-post-summary--content-title, .s-post-summary--content-excerpt`,
+      selector: `.s-prose ${DEFAULT_SELECTOR}, [itemprop="comment"] [itemprop="text"], .question-hyperlink, .s-post-summary--content-title, .s-post-summary--content-excerpt`,
       keepSelector: `${DEFAULT_KEEP_SELECTOR}, .math-container`,
     },
   "www.npmjs.com/package, developer.chrome.com/docs, medium.com, react.dev, create-react-app.dev, pytorch.org":
