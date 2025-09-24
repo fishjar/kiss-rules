@@ -360,6 +360,9 @@ const RULES_MAP = {
     selector: `${DEFAULT_SELECTOR}, [data-a-target='chat-line-message-body']`,
     keepSelector: ".mention-fragment",
   },
+  "lwn.net": {
+    selector: `${DEFAULT_SELECTOR}, .ArticleText, .FormattedComment`
+  }，
   "www.linuxquestions.org": {
     selector: `${DEFAULT_SELECTOR}, .navbar_notice, [id^="post_message_"]`,
   },
