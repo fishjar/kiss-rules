@@ -900,8 +900,8 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "stackoverflow.com, serverfault.com, superuser.com, stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net",
-    "selector": ".s-prose :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .comment-copy, .question-hyperlink, .s-post-summary--content-title, .s-post-summary--content-excerpt",
+    "pattern": "stackoverflow.com, serverfault.com, superuser.com, *.stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net",
+    "selector": ".s-prose :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), [itemprop=\"comment\"] [itemprop=\"text\"], .question-hyperlink, .s-post-summary--content-title, .s-post-summary--content-excerpt",
     "keepSelector": "code, img, svg, pre, a:has(code), .math-container",
     "terms": "",
     "translator": "*",
