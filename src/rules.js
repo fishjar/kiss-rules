@@ -360,6 +360,9 @@ const RULES_MAP = {
     selector: `${DEFAULT_SELECTOR}, [data-a-target='chat-line-message-body']`,
     keepSelector: ".mention-fragment",
   },
+  "www.linuxquestions.org": {
+    selector: `${DEFAULT_SELECTOR}, .navbar_notice, [id^="post_message_"]`,
+  },
 };
 
 const rules = Object.entries(RULES_MAP)
