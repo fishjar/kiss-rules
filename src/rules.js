@@ -112,7 +112,7 @@ const RULES_MAP = {
     keepSelector: DEFAULT_KEEP_SELECTOR,
   },
   "*.wikipedia.org": {
-    selector: `h1, .mw-parser-output ${DEFAULT_SELECTOR}`,
+    selector: `h1, .mw-parser-output ${DEFAULT_SELECTOR}, .popup_mainlink, .popupPreview`,
     keepSelector: `.mwe-math-element`,
   },
   "stackoverflow.com, serverfault.com, superuser.com, *.stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net":
