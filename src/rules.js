@@ -111,7 +111,7 @@ const RULES_MAP = {
     selector: `.docs-body ${DEFAULT_SELECTOR}`,
     keepSelector: DEFAULT_KEEP_SELECTOR,
   },
-  "en.wikipedia.org": {
+  "*.wikipedia.org": {
     selector: `h1, .mw-parser-output ${DEFAULT_SELECTOR}`,
     keepSelector: `.mwe-math-element`,
   },
