@@ -361,8 +361,8 @@ const RULES_MAP = {
     keepSelector: ".mention-fragment",
   },
   "lwn.net": {
-    selector: `${DEFAULT_SELECTOR}, .ArticleText, .FormattedComment`
-  }，
+    selector: `${DEFAULT_SELECTOR}, .ArticleText, .FormattedComment`,
+  },
   "www.linuxquestions.org": {
     selector: `${DEFAULT_SELECTOR}, .navbar_notice, [id^="post_message_"]`,
   },
