@@ -366,6 +366,9 @@ const RULES_MAP = {
   "www.linuxquestions.org": {
     selector: `${DEFAULT_SELECTOR}, .navbar_notice, [id^="post_message_"]`,
   },
+  "hn.algolia.com": {
+    selector: `${DEFAULT_SELECTOR}, .Story_title > *:not(.Story_link), .Story_comment`,
+  },
 };
 
 const rules = Object.entries(RULES_MAP)
