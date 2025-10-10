@@ -32,7 +32,7 @@
   {
     "rootsSelector": "ytd-page-manager",
     "ignoreSelector": "aside, button, footer, form, header, pre, mark, nav, #player",
-    "transEndHook": "({ parentNode }) => {parentNode.parentElement.style.cssText += \"-webkit-line-clamp: unset; max-height: none; height: auto;\";}",
+    "transEndHook": "({ parentNode }) => {parentNode?.parentElement?.style.cssText += \"-webkit-line-clamp: unset; max-height: none; height: auto;\";}",
     "textStyle": "dash_box",
     "pattern": "www.youtube.com",
     "transOpen": "true"
