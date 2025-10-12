@@ -651,7 +651,7 @@
   },
   {
     "pattern": "m.youtube.com",
-    "selector": ".slim-video-information-title .yt-core-attributed-string, .media-item-headline .yt-core-attributed-string, .comment-text .yt-core-attributed-string, .typography-body-2b .yt-core-attributed-string, #ytp-caption-window-container .ytp-caption-segment",
+    "selector": ".slim-video-information-title .yt-core-attributed-string, .media-item-headline .yt-core-attributed-string, .comment-text .yt-core-attributed-string, .typography-body-2b .yt-core-attributed-string, #ytp-caption-window-container .ytp-caption-segment, p",
     "keepSelector": "img, #content-text>a",
     "terms": "",
     "translator": "*",
