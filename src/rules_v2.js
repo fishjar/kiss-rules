@@ -54,6 +54,11 @@ const RULES_MAP = {
     rootsSelector: `ytd-page-manager`,
     ignoreSelector: `aside, button, footer, form, header, pre, mark, nav, #player, #container, .caption-window, .ytp-settings-menu`,
   },
+  "www.youtube.com/live_chat": {
+    rootsSelector: `div#items`,
+    selector: `span.yt-live-chat-text-message-renderer`,
+    autoScan: `false`,
+  },
 };
 
 const rules = Object.entries(RULES_MAP)
