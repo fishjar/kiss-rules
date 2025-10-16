@@ -30,5 +30,12 @@
     "ignoreSelector": "aside, button, footer, form, header, pre, mark, nav, #player, #container, .caption-window, .ytp-settings-menu",
     "pattern": "www.youtube.com",
     "transOpen": "true"
+  },
+  {
+    "rootsSelector": "div#items",
+    "selector": "span.yt-live-chat-text-message-renderer",
+    "autoScan": "false",
+    "pattern": "www.youtube.com/live_chat",
+    "transOpen": "true"
   }
 ]
