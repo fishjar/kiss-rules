@@ -55,7 +55,6 @@ const RULES_MAP = {
     ignoreSelector: `aside, button, footer, form, header, pre, mark, nav, #player, #container, .caption-window, .ytp-settings-menu`,
   },
   "www.youtube.com/live_chat": {
-    rootsSelector: `div#items`,
     selector: `span.yt-live-chat-text-message-renderer`,
     autoScan: `false`,
   },
