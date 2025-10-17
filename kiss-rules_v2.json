@@ -27,7 +27,6 @@
     "pattern": "www.youtube.com"
   },
   {
-    "rootsSelector": "div#items",
     "selector": "span.yt-live-chat-text-message-renderer",
     "autoScan": "false",
     "pattern": "www.youtube.com/live_chat"
