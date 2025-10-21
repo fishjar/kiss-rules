@@ -1,10 +1,5 @@
 [
   {
-    "rootsSelector": "#rcnt",
-    "pattern": "www.google.com/search",
-    "transOpen": "true"
-  },
-  {
     "ignoreSelector": ".button, code, footer, form, mark, pre, .mwe-math-element, .mw-editsection",
     "pattern": "en.wikipedia.org",
     "transOpen": "true"
