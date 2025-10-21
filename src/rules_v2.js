@@ -32,9 +32,9 @@ const DEFAULT_RULE = {
 };
 
 const RULES_MAP = {
-  "www.google.com/search": {
-    rootsSelector: `#rcnt`,
-  },
+  // "www.google.com/search": {
+  //   rootsSelector: `#rcnt`,
+  // },
   "en.wikipedia.org": {
     ignoreSelector: `.button, code, footer, form, mark, pre, .mwe-math-element, .mw-editsection`,
   },
