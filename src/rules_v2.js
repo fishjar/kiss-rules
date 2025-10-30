@@ -59,6 +59,11 @@ const RULES_MAP = {
     rootsSelector: `ytd-page-manager`,
     ignoreSelector: `aside, button, footer, form, header, pre, mark, nav, #player, #container, .caption-window, .ytp-settings-menu`,
   },
+  "web.telegram.org": {
+    autoScan: `false`,
+    selector: ".text-content, .embedded-text-wrapper",
+    rootsSelector: ".Transition",
+  },
 };
 
 const rules = Object.entries(RULES_MAP).map(([pattern, rule]) => ({
