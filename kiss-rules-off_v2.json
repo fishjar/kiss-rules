@@ -32,5 +32,12 @@
     "ignoreSelector": "aside, button, footer, form, header, pre, mark, nav, #player, #container, .caption-window, .ytp-settings-menu",
     "pattern": "www.youtube.com",
     "transOpen": "false"
+  },
+  {
+    "autoScan": "false",
+    "selector": ".text-content, .embedded-text-wrapper",
+    "rootsSelector": ".Transition",
+    "pattern": "web.telegram.org",
+    "transOpen": "false"
   }
 ]
