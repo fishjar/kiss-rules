@@ -39,5 +39,13 @@
     "rootsSelector": ".Transition",
     "pattern": "web.telegram.org",
     "transOpen": "true"
+  },
+  {
+    "ignoreSelector": "table",
+    "keepSelector": "b, i",
+    "transStartHook": "({text})=>({text:text.replace(/[\r\n]+/g, \"\")})",
+    "injectJs": "document.querySelectorAll('pre').forEach(pre=>pre.innerHTML = pre.innerHTML?.replace(/(?:\r\n|\r|\n){2,}/g, '<br /><br />'));",
+    "pattern": "man7.org",
+    "transOpen": "true"
   }
 ]
