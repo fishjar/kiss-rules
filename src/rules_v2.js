@@ -1,6 +1,4 @@
 const GLOBAL_KEY = "*";
-const OPT_STYLE_DASHBOX = "dash_box"; // 虚线框
-const OPT_STYLE_BLOCKQUOTE = "blockquote"; // 引用
 
 const DEFAULT_RULE = {
   pattern: "", // 匹配网址
@@ -13,22 +11,36 @@ const DEFAULT_RULE = {
   toLang: GLOBAL_KEY, // 目标语言
   textStyle: GLOBAL_KEY, // 译文样式
   transOpen: GLOBAL_KEY, // 开启翻译
-  bgColor: "", // 译文颜色
-  textDiyStyle: "", // 自定义译文样式
+  // bgColor: "", // 译文颜色 (作废)
+  // textDiyStyle: "", // 自定义译文样式 (作废)
+  textExtStyle: "", // 译文附加样式
+  termsStyle: "", // 专业术语样式
+  highlightStyle: "", // 高亮词汇样式
   selectStyle: "", // 选择器节点样式
   parentStyle: "", // 选择器父节点样式
+  grandStyle: "", // 选择器父节点样式
   injectJs: "", // 注入JS
-  injectCss: "", // 注入CSS
+  // injectCss: "", // 注入CSS (作废)
   transOnly: GLOBAL_KEY, // 是否仅显示译文
+  // transTiming: GLOBAL_KEY, // 翻译时机/鼠标悬停翻译  (暂时作废)
   transTag: GLOBAL_KEY, // 译文元素标签
   transTitle: GLOBAL_KEY, // 是否同时翻译页面标题
+  // transSelected: GLOBAL_KEY, // 是否启用划词翻译 (移回setting)
+  // detectRemote: GLOBAL_KEY, // 是否使用远程语言检测 (移回setting)
+  // skipLangs: [], // 不翻译的语言 (移回setting)
+  // fixerSelector: "", // 修复函数选择器 (暂时作废)
+  // fixerFunc: GLOBAL_KEY, // 修复函数 (暂时作废)
   transStartHook: "", // 钩子函数
   transEndHook: "", // 钩子函数
+  // transRemoveHook: "", // 钩子函数 (暂时作废)
   autoScan: GLOBAL_KEY, // 是否自动识别文本节点
   hasRichText: GLOBAL_KEY, // 是否启用富文本翻译
   hasShadowroot: GLOBAL_KEY, // 是否包含shadowroot
   rootsSelector: "", // 翻译范围选择器
   ignoreSelector: "", // 不翻译的选择器
+  splitParagraph: GLOBAL_KEY, // 切分段落
+  splitLength: 0, // 切分段落长度
+  highlightWords: GLOBAL_KEY, // 高亮词汇
 };
 
 const RULES_MAP = {
@@ -63,6 +75,12 @@ const RULES_MAP = {
     autoScan: `false`,
     selector: ".text-content, .embedded-text-wrapper",
     rootsSelector: ".Transition",
+  },
+  "man7.org": {
+    ignoreSelector: "table",
+    keepSelector: "b, i",
+    transStartHook: `({text})=>({text:text.replace(/[\r\n]+/g, "")})`,
+    injectJs: `document.querySelectorAll('pre').forEach(pre=>pre.innerHTML = pre.innerHTML?.replace(/(?:\r\n|\r|\n){2,}/g, '<br /><br />'));`,
   },
 };
 
