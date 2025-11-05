@@ -82,6 +82,10 @@ const RULES_MAP = {
     transStartHook: `({text})=>({text:text.replace(/[\r\n]+/g, "")})`,
     injectJs: `document.querySelectorAll('pre').forEach(pre=>pre.innerHTML = pre.innerHTML?.replace(/(?:\r\n|\r|\n){2,}/g, '<br /><br />'));`,
   },
+  "github.com": {
+    autoScan: `false`,
+    selector: `h1, h2, h3, h4, h5, h6, .markdown-body li, p, dd, blockquote, figcaption, label, legend`,
+  },
 };
 
 const rules = Object.entries(RULES_MAP).map(([pattern, rule]) => ({
