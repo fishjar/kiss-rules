@@ -47,5 +47,11 @@
     "injectJs": "document.querySelectorAll('pre').forEach(pre=>pre.innerHTML = pre.innerHTML?.replace(/(?:\r\n|\r|\n){2,}/g, '<br /><br />'));",
     "pattern": "man7.org",
     "transOpen": "true"
+  },
+  {
+    "autoScan": "false",
+    "selector": "h1, h2, h3, h4, h5, h6, .markdown-body li, p, dd, blockquote, figcaption, label, legend",
+    "pattern": "github.com",
+    "transOpen": "true"
   }
 ]
