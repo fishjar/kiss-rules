@@ -82,8 +82,8 @@ const RULES_MAP = {
   "man7.org": {
     ignoreSelector: "table",
     keepSelector: "b, i",
-    transStartHook: `({text})=>({text:text.replace(/[\r\n]+/g, "")})`,
-    injectJs: `document.querySelectorAll('pre').forEach(pre=>pre.innerHTML = pre.innerHTML?.replace(/(?:\r\n|\r|\n){2,}/g, '<br /><br />'));`,
+    transStartHook: `({text})=>({text:text.replace(/[\\r\\n]+/g, "")})`,
+    injectJs: `document.querySelectorAll('pre').forEach(pre=>pre.innerHTML = pre.innerHTML?.replace(/(?:\\r\\n|\\r|\\n){2,}/g, '<br /><br />'));`,
   },
   "github.com": {
     autoScan: `false`,
