@@ -89,6 +89,20 @@ const RULES_MAP = {
     autoScan: `false`,
     selector: `h1, h2, h3, h4, h5, h6, .markdown-body li, p, dd, blockquote, figcaption, label, legend`,
   },
+  "*.notion.site": {
+    injectJs: `setTimeout(() => {
+  const originalReactRoot = document.getElementById("notion-app");
+  if (originalReactRoot) {
+    originalReactRoot.style.display = "none";
+    const clonedHTML = originalReactRoot.innerHTML;
+    const clonedRoot = document.createElement("div");
+    clonedRoot.id = "cloned-notion-app";
+    clonedRoot.innerHTML = clonedHTML;
+    const parent = originalReactRoot.parentNode;
+    parent?.insertBefore(clonedRoot, originalReactRoot.nextSibling);
+  }
+}, 5000);`,
+  },
 };
 
 const rules = Object.entries(RULES_MAP).map(([pattern, rule]) => ({
