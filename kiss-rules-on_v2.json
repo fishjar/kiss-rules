@@ -56,5 +56,10 @@
     "selector": "h1, h2, h3, h4, h5, h6, .markdown-body li, p, dd, blockquote, figcaption, label, legend",
     "pattern": "github.com",
     "transOpen": "true"
+  },
+  {
+    "injectJs": "setTimeout(() => {\n  const originalReactRoot = document.getElementById(\"notion-app\");\n  if (originalReactRoot) {\n    originalReactRoot.style.display = \"none\";\n    const clonedHTML = originalReactRoot.innerHTML;\n    const clonedRoot = document.createElement(\"div\");\n    clonedRoot.id = \"cloned-notion-app\";\n    clonedRoot.innerHTML = clonedHTML;\n    const parent = originalReactRoot.parentNode;\n    parent?.insertBefore(clonedRoot, originalReactRoot.nextSibling);\n  }\n}, 5000);",
+    "pattern": "*.notion.site",
+    "transOpen": "true"
   }
 ]
