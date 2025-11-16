@@ -61,6 +61,7 @@ const RULES_MAP = {
     keepSelector: `img, svg, a, span:has(a), div:has(a)`,
     ignoreSelector: `button, [data-testid='videoPlayer'], [role='group']`,
     autoScan: `false`,
+    selectStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
   },
   "www.youtube.com/live_chat": {
     rootsSelector: `div#items`,
