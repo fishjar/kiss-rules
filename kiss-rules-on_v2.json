@@ -17,6 +17,7 @@
     "keepSelector": "img, svg, a, span:has(a), div:has(a)",
     "ignoreSelector": "button, [data-testid='videoPlayer'], [role='group']",
     "autoScan": "false",
+    "selectStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
     "pattern": "twitter.com, https://x.com",
     "transOpen": "true"
   },
