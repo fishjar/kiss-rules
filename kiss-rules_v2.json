@@ -51,6 +51,7 @@
     "pattern": "github.com"
   },
   {
+    "keepSelector": "code, cite, math, .math, a:has(code), span:has(.katex)",
     "injectJs": "setTimeout(() => {\n  const originalReactRoot = document.getElementById(\"notion-app\");\n  if (originalReactRoot) {\n    originalReactRoot.style.display = \"none\";\n    const clonedHTML = originalReactRoot.innerHTML;\n    const clonedRoot = document.createElement(\"div\");\n    clonedRoot.id = \"cloned-notion-app\";\n    clonedRoot.innerHTML = clonedHTML;\n    const parent = originalReactRoot.parentNode;\n    parent?.insertBefore(clonedRoot, originalReactRoot.nextSibling);\n  }\n}, 5000);",
     "pattern": "*.notion.site"
   }
