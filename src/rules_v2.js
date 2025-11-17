@@ -91,7 +91,8 @@ const RULES_MAP = {
     selector: `h1, h2, h3, h4, h5, h6, .markdown-body li, p, dd, blockquote, figcaption, label, legend`,
   },
   "*.notion.site": {
-    keepSelector: `code, cite, math, .math, a:has(code), span:has(.katex)`,
+    ignoreSelector: ".notion-inline-code-container",
+    keepSelector: `code, cite, math, .math, a:has(code), span:has(.katex), .notion-inline-code-container`,
     injectJs: `setTimeout(() => {
   const originalReactRoot = document.getElementById("notion-app");
   if (originalReactRoot) {
