@@ -88,7 +88,7 @@ const RULES_MAP = {
   },
   "github.com": {
     autoScan: `false`,
-    selector: `h1, h2, h3, h4, h5, h6, .markdown-body li, p, dd, blockquote, figcaption, label, legend`,
+    selector: `h1, h2, h3, h4, h5, h6, .markdown-body li, p, dd, blockquote, figcaption, label, legend, .user-profile-bio>div, [data-testid="results-list"] .search-match`,
   },
   "*.notion.site": {
     ignoreSelector: ".notion-inline-code-container",
