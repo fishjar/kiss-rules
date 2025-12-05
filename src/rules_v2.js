@@ -107,6 +107,9 @@ const RULES_MAP = {
   }
 }, 5000);`,
   },
+  "store.steampowered.com": {
+    ignoreSelector: `+#footer, +svg, +.bb_img_ctn, +#game_area_legal`,
+  },
 };
 
 const rules = Object.entries(RULES_MAP).map(([pattern, rule]) => ({
