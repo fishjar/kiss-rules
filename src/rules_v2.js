@@ -70,7 +70,7 @@ const RULES_MAP = {
   },
   "www.youtube.com": {
     rootsSelector: `ytd-page-manager`,
-    ignoreSelector: `aside, button, footer, form, header, pre, mark, nav, #player, #container, .caption-window, .ytp-settings-menu`,
+    ignoreSelector: `aside, button, footer, form, header, pre, mark, nav, #player, #container, .caption-window, .ytp-settings-menu, #kiss-youtube-subtitle-list-container`,
     selectStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
     parentStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
     grandStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
