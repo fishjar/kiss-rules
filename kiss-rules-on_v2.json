@@ -67,6 +67,16 @@
     "transOpen": "true"
   },
   {
+    "injectJs": "document.addEventListener('selectionchange', (e) => {\n  const selection = window.getSelection();\n  if (selection && selection.anchorNode) {\n      const container = selection.anchorNode.parentElement;\n      if (container?.closest('.cooked')) {\n          e.stopPropagation();\n          e.stopImmediatePropagation();\n      }\n  }\n}, true);\n\ndocument.addEventListener('mouseup', (e) => {\n  if (e.target.closest('.cooked')) {\n      e.stopPropagation();\n  }\n}, true);",
+    "pattern": "meta.discourse.org",
+    "transOpen": "true"
+  },
+  {
+    "injectJs": "document.addEventListener('selectionchange', (e) => {\n  const selection = window.getSelection();\n  if (selection && selection.anchorNode) {\n      const container = selection.anchorNode.parentElement;\n      if (container?.closest('.cooked')) {\n          e.stopPropagation();\n          e.stopImmediatePropagation();\n      }\n  }\n}, true);\n\ndocument.addEventListener('mouseup', (e) => {\n  if (e.target.closest('.cooked')) {\n      e.stopPropagation();\n  }\n}, true);",
+    "pattern": "discussion.fedoraproject.org",
+    "transOpen": "true"
+  },
+  {
     "ignoreSelector": "+#footer, +svg, +.bb_img_ctn, +#game_area_legal",
     "pattern": "store.steampowered.com",
     "transOpen": "true"
