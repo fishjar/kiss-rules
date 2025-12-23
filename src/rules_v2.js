@@ -107,6 +107,42 @@ const RULES_MAP = {
   }
 }, 5000);`,
   },
+  "meta.discourse.org": {
+    injectJs: `document.addEventListener('selectionchange', (e) => {
+  const selection = window.getSelection();
+  if (selection && selection.anchorNode) {
+      const container = selection.anchorNode.parentElement;
+      if (container?.closest('.cooked')) {
+          e.stopPropagation();
+          e.stopImmediatePropagation();
+      }
+  }
+}, true);
+
+document.addEventListener('mouseup', (e) => {
+  if (e.target.closest('.cooked')) {
+      e.stopPropagation();
+  }
+}, true);`,
+  },
+  "discussion.fedoraproject.org": {
+    injectJs: `document.addEventListener('selectionchange', (e) => {
+  const selection = window.getSelection();
+  if (selection && selection.anchorNode) {
+      const container = selection.anchorNode.parentElement;
+      if (container?.closest('.cooked')) {
+          e.stopPropagation();
+          e.stopImmediatePropagation();
+      }
+  }
+}, true);
+
+document.addEventListener('mouseup', (e) => {
+  if (e.target.closest('.cooked')) {
+      e.stopPropagation();
+  }
+}, true);`,
+  },
   "store.steampowered.com": {
     ignoreSelector: `+#footer, +svg, +.bb_img_ctn, +#game_area_legal`,
   },
