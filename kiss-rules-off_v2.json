@@ -13,9 +13,9 @@
     "transOpen": "false"
   },
   {
-    "selector": "[data-testid='tweetText'], [data-testid='twitter-article-title'], .public-DraftStyleDefault-block",
+    "selector": "[data-testid='tweetText'], [data-testid='twitter-article-title'], [data-testid='UserDescription'], .public-DraftStyleDefault-block, span.text-body, div.css-175oi2r.r-3pj75a div.css-175oi2r>span, div.css-175oi2r.r-3pj75a li>span, div.r-1s2bzr4>div.r-16dba41, div.r-16y2uox>div.r-1jeg54m",
     "keepSelector": "img, svg, a, span:has(a), div:has(a)",
-    "ignoreSelector": "button, [data-testid='videoPlayer'], [role='group']",
+    "ignoreSelector": "[data-testid='videoPlayer'], [role='group']",
     "autoScan": "false",
     "selectStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
     "pattern": "twitter.com, https://x.com",
