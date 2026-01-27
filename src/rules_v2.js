@@ -146,6 +146,10 @@ document.addEventListener('mouseup', (e) => {
   "store.steampowered.com": {
     ignoreSelector: `+#footer, +svg, +.bb_img_ctn, +#game_area_legal`,
   },
+  "old.reddit.com": {
+    selector: `.usertext`,
+    ignoreSelector: `.tabmenu #sr-header-area .tagline .flat-list .author`,
+  },
 };
 
 const rules = Object.entries(RULES_MAP).map(([pattern, rule]) => ({
