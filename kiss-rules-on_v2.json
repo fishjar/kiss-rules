@@ -80,5 +80,11 @@
     "ignoreSelector": "+#footer, +svg, +.bb_img_ctn, +#game_area_legal",
     "pattern": "store.steampowered.com",
     "transOpen": "true"
+  },
+  {
+    "selector": ".usertext",
+    "ignoreSelector": ".tabmenu #sr-header-area .tagline .flat-list .author",
+    "pattern": "old.reddit.com",
+    "transOpen": "true"
   }
 ]
