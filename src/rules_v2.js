@@ -150,6 +150,9 @@ document.addEventListener('mouseup', (e) => {
     selector: `.usertext`,
     ignoreSelector: `.tabmenu #sr-header-area .tagline .flat-list .author`,
   },
+  "liveuamap.com": {
+    rootsSelector: `.title`,
+  },
 };
 
 const rules = Object.entries(RULES_MAP).map(([pattern, rule]) => ({
