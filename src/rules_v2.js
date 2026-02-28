@@ -150,6 +150,9 @@ document.addEventListener('mouseup', (e) => {
     selector: `.usertext`,
     ignoreSelector: `.tabmenu #sr-header-area .tagline .flat-list .author`,
   },
+  "/show_bug.cgi": {
+    selector: `#field-value-short_desc, .comment-text`,
+  },
 };
 
 const rules = Object.entries(RULES_MAP).map(([pattern, rule]) => ({
