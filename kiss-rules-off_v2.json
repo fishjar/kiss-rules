@@ -86,5 +86,10 @@
     "ignoreSelector": ".tabmenu #sr-header-area .tagline .flat-list .author",
     "pattern": "old.reddit.com",
     "transOpen": "false"
+  },
+  {
+    "selector": "#field-value-short_desc, .comment-text",
+    "pattern": "/show_bug.cgi",
+    "transOpen": "false"
   }
 ]
