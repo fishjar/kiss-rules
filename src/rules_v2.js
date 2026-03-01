@@ -148,7 +148,7 @@ document.addEventListener('mouseup', (e) => {
   },
   "old.reddit.com": {
     selector: `.usertext`,
-    ignoreSelector: `.tabmenu #sr-header-area .tagline .flat-list .author`,
+    ignoreSelector: `.tabmenu, #sr-header-area, .tagline, .flat-list, .author`,
   },
   "/show_bug.cgi": {
     selector: `#field-value-short_desc, .comment-text`,
