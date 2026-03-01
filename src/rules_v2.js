@@ -153,6 +153,9 @@ document.addEventListener('mouseup', (e) => {
   "/show_bug.cgi": {
     selector: `#field-value-short_desc, .comment-text`,
   },
+  "liveuamap.com": {
+    rootsSelector: `.title`,
+  },
 };
 
 const rules = Object.entries(RULES_MAP).map(([pattern, rule]) => ({
