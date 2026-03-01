@@ -91,5 +91,10 @@
     "selector": "#field-value-short_desc, .comment-text",
     "pattern": "/show_bug.cgi",
     "transOpen": "false"
+  },
+  {
+    "rootsSelector": ".title",
+    "pattern": "liveuamap.com",
+    "transOpen": "false"
   }
 ]
