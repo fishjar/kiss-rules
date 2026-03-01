@@ -83,7 +83,7 @@
   },
   {
     "selector": ".usertext",
-    "ignoreSelector": ".tabmenu #sr-header-area .tagline .flat-list .author",
+    "ignoreSelector": ".tabmenu, #sr-header-area, .tagline, .flat-list, .author",
     "pattern": "old.reddit.com",
     "transOpen": "true"
   },
