@@ -157,8 +157,7 @@ document.addEventListener('mouseup', (e) => {
     rootsSelector: `.title`,
   },
   "search.brave.com/ask": {
-    autoScan: `false`,
-    hasRichText: `false`,
+    ignoreSelector: `#tap-input-field, .tap-input-field, .tap-input-field-wrapper, .ask-center-footer`,
   },
 };
 
