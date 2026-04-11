@@ -156,6 +156,10 @@ document.addEventListener('mouseup', (e) => {
   "liveuamap.com": {
     rootsSelector: `.title`,
   },
+  "search.brave.com/ask": {
+    autoScan: `false`,
+    hasRichText: `false`,
+  },
 };
 
 const rules = Object.entries(RULES_MAP).map(([pattern, rule]) => ({
