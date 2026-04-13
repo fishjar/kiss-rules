@@ -96,5 +96,10 @@
     "rootsSelector": ".title",
     "pattern": "liveuamap.com",
     "transOpen": "true"
+  },
+  {
+    "ignoreSelector": ".ask-left, .ask-center-footer, #tap-input-field",
+    "pattern": "search.brave.com/ask",
+    "transOpen": "true"
   }
 ]
