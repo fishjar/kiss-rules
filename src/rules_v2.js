@@ -20,7 +20,7 @@ const DEFAULT_RULE = {
   parentStyle: "", // 选择器父节点样式
   grandStyle: "", // 选择器父节点样式
   injectJs: "", // 注入JS
-  // injectCss: "", // 注入CSS (作废)
+  injectCss: "", // 注入CSS (作废)
   transOnly: GLOBAL_KEY, // 是否仅显示译文
   // transTiming: GLOBAL_KEY, // 翻译时机/鼠标悬停翻译  (暂时作废)
   transTag: GLOBAL_KEY, // 译文元素标签
@@ -74,6 +74,11 @@ const RULES_MAP = {
     selectStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
     parentStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
     grandStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
+    injectCss: `.ytLockupMetadataViewModelStandard.ytLockupMetadataViewModelRichGridLegacyTypography .ytLockupMetadataViewModelTitle {
+  -webkit-line-clamp: unset;
+  max-height: none;
+  height: auto;
+}`,
   },
   "web.telegram.org": {
     autoScan: `false`,
@@ -88,7 +93,7 @@ const RULES_MAP = {
   },
   "github.com": {
     autoScan: `false`,
-    selector: `h1, h2, h3, h4, h5, h6, .markdown-body li, p, dd, blockquote, figcaption, label, legend, .user-profile-bio>div, [data-testid="results-list"] .search-match, .Subhead-description, [class^="prc-SelectPanel-Subtitle-"], [class^="prc-ActionList-ItemLabel-"], [role="dialog"] .overflow-auto, .h4, .repos-list-description, .discussion-title, [class*="PinnedIssue-module__Link"] span, .js-wiki-sidebar-page-container :is(.Truncate-text, .Link--primary)`,
+    selector: `h1, h2, h3, h4, h5, h6, .markdown-body li, p, dd, blockquote, figcaption, label, legend, .user-profile-bio>div, [data-testid="results-list"] .search-match, .Subhead-description, [class^="prc-SelectPanel-Subtitle-"], [class^="prc-ActionList-ItemLabel-"], [role="dialog"] .overflow-auto, .h4, .repos-list-description, .discussion-title, [class*="PinnedIssue-module__Link"] span, .js-wiki-sidebar-page-container :is(.Truncate-text, .Link--primary), .markdown-body td:not(:first-child)`,
     ignoreSelector: `button, p.pinned-item-desc+p`,
   },
   "*.notion.site": {
