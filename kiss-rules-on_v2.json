@@ -34,6 +34,7 @@
     "selectStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
     "parentStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
     "grandStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
+    "injectCss": ".ytLockupMetadataViewModelStandard.ytLockupMetadataViewModelRichGridLegacyTypography .ytLockupMetadataViewModelTitle {\n  -webkit-line-clamp: unset;\n  max-height: none;\n  height: auto;\n}",
     "pattern": "www.youtube.com",
     "transOpen": "true"
   },
@@ -54,7 +55,7 @@
   },
   {
     "autoScan": "false",
-    "selector": "h1, h2, h3, h4, h5, h6, .markdown-body li, p, dd, blockquote, figcaption, label, legend, .user-profile-bio>div, [data-testid=\"results-list\"] .search-match, .Subhead-description, [class^=\"prc-SelectPanel-Subtitle-\"], [class^=\"prc-ActionList-ItemLabel-\"], [role=\"dialog\"] .overflow-auto, .h4, .repos-list-description, .discussion-title, [class*=\"PinnedIssue-module__Link\"] span, .js-wiki-sidebar-page-container :is(.Truncate-text, .Link--primary)",
+    "selector": "h1, h2, h3, h4, h5, h6, .markdown-body li, p, dd, blockquote, figcaption, label, legend, .user-profile-bio>div, [data-testid=\"results-list\"] .search-match, .Subhead-description, [class^=\"prc-SelectPanel-Subtitle-\"], [class^=\"prc-ActionList-ItemLabel-\"], [role=\"dialog\"] .overflow-auto, .h4, .repos-list-description, .discussion-title, [class*=\"PinnedIssue-module__Link\"] span, .js-wiki-sidebar-page-container :is(.Truncate-text, .Link--primary), .markdown-body td:not(:first-child)",
     "ignoreSelector": "button, p.pinned-item-desc+p",
     "pattern": "github.com",
     "transOpen": "true"
