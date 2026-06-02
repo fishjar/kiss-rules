@@ -39,7 +39,7 @@
     "selectStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
     "parentStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
     "grandStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
-    "injectCss": ".ytLockupMetadataViewModelStandard.ytLockupMetadataViewModelRichGridLegacyTypography .ytLockupMetadataViewModelTitle {\n  -webkit-line-clamp: unset;\n  max-height: none;\n  height: auto;\n}",
+    "injectCss": ".ytLockupMetadataViewModelStandard.ytLockupMetadataViewModelRichGridLegacyTypography .ytLockupMetadataViewModelTitle {\n  -webkit-line-clamp: unset;\n  max-height: none;\n  height: auto;\n}\n\n.yt-horizontal-list-renderer+kiss-translator {\n  display: none;\n}",
     "pattern": "www.youtube.com",
     "transOpen": "false"
   },
