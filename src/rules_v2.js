@@ -81,6 +81,10 @@ const RULES_MAP = {
   -webkit-line-clamp: unset;
   max-height: none;
   height: auto;
+}
+
+.yt-horizontal-list-renderer+kiss-translator {
+  display: none;
 }`,
   },
   "web.telegram.org": {
