@@ -74,6 +74,7 @@ const RULES_MAP = {
   "www.youtube.com": {
     rootsSelector: `ytd-page-manager, yt-lockup-view-model, ytm-shorts-lockup-view-model`,
     ignoreSelector: `aside, button, footer, form, header, pre, mark, nav, #player, .caption-window, .ytp-settings-menu, #kiss-youtube-subtitle-list-container, yt-pdg-comment-chip-renderer`,
+    blockSelector: `yt-lockup-view-model, ytm-shorts-lockup-view-model, ytm-shorts-lockup-view-model-v2, ytd-post-renderer`,
     selectStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
     parentStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
     grandStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
