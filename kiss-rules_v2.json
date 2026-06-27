@@ -85,6 +85,12 @@
     "pattern": "/show_bug.cgi"
   },
   {
+    "selectStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
+    "parentStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
+    "grandStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
+    "pattern": "youtrack.jetbrains.com"
+  },
+  {
     "rootsSelector": ".title",
     "pattern": "liveuamap.com"
   },

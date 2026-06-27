@@ -2124,5 +2124,30 @@
     "skipLangs": [],
     "fixerSelector": ".bbWrapper, .bbCodeBlock-expandContent",
     "fixerFunc": "br"
+  },
+  {
+    "pattern": "youtrack.jetbrains.com",
+    "selector": "",
+    "keepSelector": "",
+    "terms": "",
+    "translator": "*",
+    "fromLang": "*",
+    "toLang": "*",
+    "textStyle": "*",
+    "transOpen": "true",
+    "bgColor": "",
+    "textDiyStyle": "",
+    "selectStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
+    "parentStyle": "-webkit-line-clamp: unset; max-height: none; height: auto;",
+    "injectJs": "",
+    "injectCss": "",
+    "transOnly": "*",
+    "transTiming": "*",
+    "transTag": "*",
+    "transTitle": "*",
+    "detectRemote": "*",
+    "skipLangs": [],
+    "fixerSelector": "",
+    "fixerFunc": "*"
   }
 ]
