@@ -166,6 +166,11 @@ document.addEventListener('mouseup', (e) => {
   "/show_bug.cgi": {
     selector: `#field-value-short_desc, .comment-text`,
   },
+  "youtrack.jetbrains.com": {
+    selectStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
+    parentStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
+    grandStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
+  },
   "liveuamap.com": {
     rootsSelector: `.title`,
   },
