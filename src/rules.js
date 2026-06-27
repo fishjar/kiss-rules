@@ -356,6 +356,10 @@ const RULES_MAP = {
     fixerSelector: "td, .bs-callout-supermemo",
     fixerFunc: FIXER_BR,
   },
+  "youtrack.jetbrains.com": {
+    selectStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
+    parentStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
+  },
   "www.twitch.tv": {
     selector: `${DEFAULT_SELECTOR}, [data-a-target='chat-line-message-body']`,
     keepSelector: ".mention-fragment",
