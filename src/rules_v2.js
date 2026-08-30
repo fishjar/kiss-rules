@@ -167,6 +167,8 @@ document.addEventListener('mouseup', (e) => {
     selector: `#field-value-short_desc, .comment-text`,
   },
   "youtrack.jetbrains.com": {
+    selector: `h1, h2, h3, h4, h5, h6, p, li, dd, blockquote`,
+    autoScan: `false`,
     selectStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
     parentStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
     grandStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
