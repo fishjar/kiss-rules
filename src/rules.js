@@ -357,6 +357,7 @@ const RULES_MAP = {
     fixerFunc: FIXER_BR,
   },
   "youtrack.jetbrains.com": {
+    selector: `h1, h2, h3, h4, h5, h6, p, li, dd, blockquote`,
     selectStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
     parentStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
   },
