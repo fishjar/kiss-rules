@@ -47,31 +47,31 @@ const RULES_MAP = {
   // "www.google.com/search": {
   //   rootsSelector: `#rcnt`,
   // },
-  "en.wikipedia.org": {
+  "://en.wikipedia.org/": {
     ignoreSelector: `.button, code, footer, form, mark, pre, .mwe-math-element, .mw-editsection`,
   },
-  "news.ycombinator.com": {
+  "://news.ycombinator.com/": {
     selector: `p, .titleline, .commtext, .hn-item-title, .hn-comment-text, .hn-story-title`,
     keepSelector: `code, img, svg, pre, .sitebit`,
     ignoreSelector: `button, code, footer, form, header, mark, nav, pre, .reply`,
     autoScan: `false`,
   },
-  "twitter.com, https://x.com": {
+  "://twitter.com/, https://x.com/": {
     selector: `[data-testid='tweetText'], [data-testid='twitter-article-title'], [data-testid='UserDescription'], .public-DraftStyleDefault-block, span.text-body, div.css-175oi2r.r-3pj75a div.css-175oi2r>span, div.css-175oi2r.r-3pj75a li>span, div.r-1s2bzr4>div.r-16dba41, div.r-16y2uox>div.r-1jeg54m`,
     keepSelector: `img, svg, a, span:has(a), div:has(a)`,
     ignoreSelector: `[data-testid='videoPlayer'], [data-testid^='tweetTextarea']`,
     autoScan: `false`,
     selectStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
   },
-  "www.youtube.com/live_chat": {
+  "://www.youtube.com/live_chat": {
     rootsSelector: `div#items`,
     selector: `span.yt-live-chat-text-message-renderer`,
     autoScan: `false`,
   },
-  "m.youtube.com": {
+  "://m.youtube.com/": {
     ignoreSelector: "-button",
   },
-  "www.youtube.com": {
+  "://www.youtube.com/": {
     rootsSelector: `ytd-page-manager, yt-lockup-view-model, ytm-shorts-lockup-view-model`,
     ignoreSelector: `aside, button, footer, form, header, pre, mark, nav, #player, .caption-window, .ytp-settings-menu, #kiss-youtube-subtitle-list-container, yt-pdg-comment-chip-renderer, #sort-menu`,
     blockSelector: `yt-lockup-view-model, ytm-shorts-lockup-view-model, ytm-shorts-lockup-view-model-v2, ytd-post-renderer`,
@@ -88,23 +88,23 @@ const RULES_MAP = {
   display: none;
 }`,
   },
-  "web.telegram.org": {
+  "://web.telegram.org/": {
     autoScan: `false`,
     selector: ".text-content, .embedded-text-wrapper",
     rootsSelector: ".Transition",
   },
-  "man7.org": {
+  "://man7.org/": {
     ignoreSelector: "table",
     keepSelector: "b, i",
     transStartHook: `({text})=>({text:text.replace(/[\\r\\n]+/g, "")})`,
     injectJs: `document.querySelectorAll('pre').forEach(pre=>pre.innerHTML = pre.innerHTML?.replace(/(?:\\r\\n|\\r|\\n){2,}/g, '<br /><br />'));`,
   },
-  "github.com": {
+  "://github.com/": {
     autoScan: `false`,
     selector: `h1, h2, h3, h4, h5, h6, .markdown-body li, p, dd, blockquote, figcaption, label, legend, .user-profile-bio>div, [data-testid="results-list"] .search-match, .Subhead-description, [class^="prc-SelectPanel-Subtitle-"], [class^="prc-ActionList-ItemLabel-"], [role="dialog"] .overflow-auto, .h4, .repos-list-description, .discussion-title, [class*="PinnedIssue-module__Link"] span, .js-wiki-sidebar-page-container :is(.Truncate-text, .Link--primary), .markdown-body td:not(:first-child)`,
-    ignoreSelector: `button, p.pinned-item-desc+p`,
+    ignoreSelector: `button, p.pinned-item-desc+p, [id^="DndDescribedBy-"], [id^="DndLiveRegion-"]`,
   },
-  "*.notion.site": {
+  "://*.notion.site/": {
     ignoreSelector: ".notion-inline-code-container",
     keepSelector: `code, cite, math, .math, a:has(code), span:has(.katex), .notion-inline-code-container`,
     injectJs: `setTimeout(() => {
@@ -120,7 +120,7 @@ const RULES_MAP = {
   }
 }, 5000);`,
   },
-  "meta.discourse.org": {
+  "://meta.discourse.org/": {
     injectJs: `document.addEventListener('selectionchange', (e) => {
   const selection = window.getSelection();
   if (selection && selection.anchorNode) {
@@ -138,7 +138,7 @@ document.addEventListener('mouseup', (e) => {
   }
 }, true);`,
   },
-  "discussion.fedoraproject.org": {
+  "://discussion.fedoraproject.org/": {
     injectJs: `document.addEventListener('selectionchange', (e) => {
   const selection = window.getSelection();
   if (selection && selection.anchorNode) {
@@ -156,27 +156,27 @@ document.addEventListener('mouseup', (e) => {
   }
 }, true);`,
   },
-  "store.steampowered.com": {
+  "://store.steampowered.com/": {
     ignoreSelector: `+#footer, +svg, +.bb_img_ctn, +#game_area_legal`,
   },
-  "old.reddit.com": {
+  "://old.reddit.com/": {
     selector: `.usertext`,
     ignoreSelector: `.tabmenu, #sr-header-area, .tagline, .flat-list, .author, code`,
   },
   "/show_bug.cgi": {
     selector: `#field-value-short_desc, .comment-text`,
   },
-  "youtrack.jetbrains.com": {
+  "://youtrack.jetbrains.com/": {
     selector: `h1, h2, h3, h4, h5, h6, p, li, dd, blockquote`,
     autoScan: `false`,
     selectStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
     parentStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
     grandStyle: `-webkit-line-clamp: unset; max-height: none; height: auto;`,
   },
-  "liveuamap.com": {
+  "://liveuamap.com/": {
     rootsSelector: `.title`,
   },
-  "search.brave.com/ask": {
+  "://search.brave.com/ask": {
     ignoreSelector: `.ask-left, .ask-center-footer, #tap-input-field`,
   },
 };
