@@ -1,6 +1,6 @@
 [
   {
-    "pattern": "*.wikipedia.org",
+    "pattern": "://*.wikipedia.org/",
     "selector": "h1, .mw-parser-output :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .popup_mainlink, .popupPreview",
     "keepSelector": ".mwe-math-element",
     "terms": "",
@@ -25,7 +25,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "app.slack.com/client/",
+    "pattern": "://app.slack.com/client/",
     "selector": ".p-rich_text_section, .c-message_attachment__text, .p-rich_text_list li",
     "keepSelector": "",
     "terms": "",
@@ -50,7 +50,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "bard.google.com",
+    "pattern": "://bard.google.com/",
     "selector": ".query-content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), message-content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -75,7 +75,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "bearblog.dev, www.theverge.com, www.tampermonkey.net/documentation.php",
+    "pattern": "://bearblog.dev/, ://www.theverge.com/, ://www.tampermonkey.net/documentation.php",
     "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -100,7 +100,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "blogs.windows.com",
+    "pattern": "://blogs.windows.com/",
     "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .c-uhf-nav-link, figcaption",
     "keepSelector": "",
     "terms": "",
@@ -125,7 +125,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "chat.openai.com",
+    "pattern": "://chat.openai.com/",
     "selector": "div[data-message-author-role] > div :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -150,7 +150,7 @@
     "fixerFunc": "bn"
   },
   {
-    "pattern": "chromereleases.googleblog.com",
+    "pattern": "://chromereleases.googleblog.com/",
     "selector": "",
     "keepSelector": "",
     "terms": "",
@@ -175,7 +175,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "deno.land, docs.github.com",
+    "pattern": "://deno.land/, ://docs.github.com/",
     "selector": "main :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
@@ -200,7 +200,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "developer.apple.com/documentation/",
+    "pattern": "://developer.apple.com/documentation/",
     "selector": "#main :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), #main .abstract .content, #main .abstract.content, #main .link span",
     "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
@@ -225,7 +225,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "developers.cloudflare.com",
+    "pattern": "://developers.cloudflare.com/",
     "selector": ".content-panel :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .WorkerStarter--description, tr > td",
     "keepSelector": "a[rel='noopener'], code",
     "terms": "",
@@ -250,7 +250,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "discord.com/channels/",
+    "pattern": "://discord.com/channels/",
     "selector": "div[class^=message], div[class^=headerText], div[class^=name_], section[aria-label='Search Results'] div[id^=message-content], div[id^=message]",
     "keepSelector": "li[class^='card'] div[class^='message'], [class^='embedFieldValue'], [data-list-item-id^='forum-channel-list'] div[class^='headerText']",
     "terms": "",
@@ -275,7 +275,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "doc.rust-lang.org/book/, doc.rust-lang.org/cargo/, doc.rust-lang.org/rust-by-example/, doc.rust-lang.org/embedded-book/",
+    "pattern": "://doc.rust-lang.org/book/, ://doc.rust-lang.org/cargo/, ://doc.rust-lang.org/rust-by-example/, ://doc.rust-lang.org/embedded-book/",
     "selector": ".content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
@@ -300,7 +300,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "docs.arduino.cc",
+    "pattern": "://docs.arduino.cc/",
     "selector": "[class^=\"tutorial-module--left\"] :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -325,7 +325,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "docs.rs, doc.rust-lang.org/std/, doc.rust-lang.org/nightly/, doc.rust-lang.org/stable/",
+    "pattern": "://docs.rs/, ://doc.rust-lang.org/std/, ://doc.rust-lang.org/nightly/, ://doc.rust-lang.org/stable/",
     "selector": ".docblock :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .docblock-short",
     "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
@@ -350,7 +350,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "edition.cnn.com",
+    "pattern": "://edition.cnn.com/",
     "selector": ".container__title, .container__headline, .headline__text, .image__caption, [data-type=\"Title\"], .article__content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -375,7 +375,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "education.github.com",
+    "pattern": "://education.github.com/",
     "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), a, summary, span.Button-content",
     "keepSelector": "",
     "terms": "",
@@ -400,7 +400,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "fearlessrevolution.com",
+    "pattern": "://fearlessrevolution.com/",
     "selector": ".page-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .topictitle, .forumtitle",
     "keepSelector": "",
     "terms": "",
@@ -425,7 +425,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "forum.arduino.cc",
+    "pattern": "://forum.arduino.cc/",
     "selector": ".top-row>.title, .featured-topic>.title, .link-top-line>.title, .category-description, .topic-excerpt, .fancy-title, .cooked :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -450,7 +450,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "forum.ru-board.com",
+    "pattern": "://forum.ru-board.com/",
     "selector": ".tit, .dats, .kiss-p, .lgf :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -475,7 +475,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "forums.zotero.org",
+    "pattern": "://forums.zotero.org/",
     "selector": "h1, h3, .Title, .Summary, .Message :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -500,7 +500,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "github.com",
+    "pattern": "://github.com/",
     "selector": ".markdown-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .repo-description p, .Layout-sidebar .f4, .container-lg .py-4 .f5, .container-lg .my-4 .f5, .Box-row .pr-4, .Box-row article .mt-1, [itemprop=\"description\"], .markdown-title, bdi, .ws-pre-wrap, .status-meta, span.status-meta, .col-10.color-fg-muted, .TimelineItem-body, .pinned-item-list-item-content .color-fg-muted, .markdown-body td, .markdown-body th, [data-testid=\"issue-pr-title-link\"], h4.mb-2, h4.mb-2+span",
     "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
@@ -525,7 +525,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "go.dev/tour",
+    "pattern": "://go.dev/tour",
     "selector": "#left-side :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
@@ -550,7 +550,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "gobyexample.com",
+    "pattern": "://gobyexample.com/",
     "selector": ".docs p",
     "keepSelector": "code",
     "terms": "",
@@ -575,7 +575,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "greasyfork.org",
+    "pattern": "://greasyfork.org/",
     "selector": "h2, .script-link, .script-description, #additional-info :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -600,7 +600,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "hn.algolia.com",
+    "pattern": "://hn.algolia.com/",
     "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .Story_title > *:not(.Story_link), .Story_comment",
     "keepSelector": "",
     "terms": "",
@@ -625,7 +625,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "lwn.net",
+    "pattern": "://lwn.net/",
     "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .ArticleText, .FormattedComment",
     "keepSelector": "",
     "terms": "",
@@ -650,7 +650,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "m.youtube.com",
+    "pattern": "://m.youtube.com/",
     "selector": ".slim-video-information-title .yt-core-attributed-string, .media-item-headline .yt-core-attributed-string, .comment-text .yt-core-attributed-string, .typography-body-2b .yt-core-attributed-string, #ytp-caption-window-container .ytp-caption-segment, p",
     "keepSelector": "img, #content-text>a",
     "terms": "",
@@ -675,7 +675,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "mail.google.com",
+    "pattern": "://mail.google.com/",
     "selector": ".a3s.aiL :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), span[data-thread-id]",
     "keepSelector": "",
     "terms": "",
@@ -700,7 +700,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "news.google.com",
+    "pattern": "://news.google.com/",
     "selector": "[data-n-tid], :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -725,7 +725,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "news.yahoo.co.jp/articles/",
+    "pattern": "://news.yahoo.co.jp/articles/",
     "selector": "",
     "keepSelector": "",
     "terms": "",
@@ -750,7 +750,7 @@
     "fixerFunc": "bn"
   },
   {
-    "pattern": "news.ycombinator.com",
+    "pattern": "://news.ycombinator.com/",
     "selector": ".title, p",
     "keepSelector": "",
     "terms": "",
@@ -775,7 +775,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "notebooks.githubusercontent.com/view/ipynb",
+    "pattern": "://notebooks.githubusercontent.com/view/ipynb",
     "selector": "#notebook-container :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
@@ -800,7 +800,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "pkg.go.dev",
+    "pattern": "://pkg.go.dev/",
     "selector": ".Documentation-content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "code, img, svg, pre, a:has(code), a, span",
     "terms": "",
@@ -825,7 +825,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "platform.openai.com/docs",
+    "pattern": "://platform.openai.com/docs",
     "selector": ".docs-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "code, img, svg, pre, a:has(code)",
     "terms": "",
@@ -850,7 +850,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "play.google.com/store/apps/details",
+    "pattern": "://play.google.com/store/apps/details",
     "selector": "",
     "keepSelector": "",
     "terms": "",
@@ -875,7 +875,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "pubs.acs.org/doi",
+    "pattern": "://pubs.acs.org/doi",
     "selector": ":is(li:not(.header_mainmenu_current):not(.share__item), p:not([class^=\"article_\"]), h1, h2:not(.fig-label), h3, h4, h5, h6, dd, blockquote, .title2, .kiss-p",
     "keepSelector": "code, img, svg, .math, a:has(code), sup, sub, .MathJax",
     "terms": "",
@@ -900,7 +900,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "randomnerdtutorials.com",
+    "pattern": "://randomnerdtutorials.com/",
     "selector": "article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -925,7 +925,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "restofworld.org",
+    "pattern": "://restofworld.org/",
     "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .recirc-story__headline, .recirc-story__dek",
     "keepSelector": "",
     "terms": "",
@@ -950,7 +950,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "stackoverflow.com, serverfault.com, superuser.com, *.stackexchange.com, askubuntu.com, stackapps.com, mathoverflow.net",
+    "pattern": "://stackoverflow.com/, ://serverfault.com/, ://superuser.com/, ://*.stackexchange.com/, ://askubuntu.com/, ://stackapps.com/, ://mathoverflow.net/",
     "selector": ".s-prose :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), [itemprop=\"comment\"] [itemprop=\"text\"], .question-hyperlink, .s-post-summary--content-title, .s-post-summary--content-excerpt",
     "keepSelector": "code, img, svg, pre, a:has(code), .math-container",
     "terms": "",
@@ -975,7 +975,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "steamcommunity.com",
+    "pattern": "://steamcommunity.com/",
     "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .topic, .forum_topic_name, .discussions_forumlist_forumname",
     "keepSelector": "",
     "terms": "",
@@ -1000,7 +1000,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "supermemo.guru",
+    "pattern": "://supermemo.guru/",
     "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .bs-callout",
     "keepSelector": "",
     "terms": "",
@@ -1025,7 +1025,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "t.me/s/",
+    "pattern": "://t.me/s/",
     "selector": ".js-message_text :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -1050,7 +1050,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "themessenger.com",
+    "pattern": "://themessenger.com/",
     "selector": ".leading-tight, .leading-tighter, .my-2 p, .font-body p, article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -1075,7 +1075,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "time.com",
+    "pattern": "://time.com/",
     "selector": "h1, h3, .summary, .video-title, #article-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .image-wrap-container .credit.body-caption, .media-heading",
     "keepSelector": "",
     "terms": "",
@@ -1100,7 +1100,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "twitter.com, https://x.com/",
+    "pattern": "://twitter.com/, https://x.com/",
     "selector": "[data-testid=\"tweetText\"], [data-testid=\"birdwatch-pivot\"]>div.css-1rynq56",
     "keepSelector": "img, a, .r-18u37iz, .css-175oi2r",
     "terms": "",
@@ -1125,7 +1125,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "ubuntuforums.org",
+    "pattern": "://ubuntuforums.org/",
     "selector": "",
     "keepSelector": "",
     "terms": "",
@@ -1150,7 +1150,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "web.telegram.org/a",
+    "pattern": "://web.telegram.org/a",
     "selector": ".text-content > .kiss-p",
     "keepSelector": ".Reactions, .time, .peer-title, .document-wrapper, .message.spoilers-container custom-emoji-element",
     "terms": "",
@@ -1175,7 +1175,7 @@
     "fixerFunc": "brToDiv"
   },
   {
-    "pattern": "web.telegram.org/k",
+    "pattern": "://web.telegram.org/k",
     "selector": "div.kiss-p",
     "keepSelector": "div[class^=time], .peer-title, .document-wrapper, .message.spoilers-container custom-emoji-element, reactions-element",
     "terms": "",
@@ -1200,7 +1200,7 @@
     "fixerFunc": "bnToDiv"
   },
   {
-    "pattern": "web.whatsapp.com",
+    "pattern": "://web.whatsapp.com/",
     "selector": ".copyable-text > span",
     "keepSelector": "",
     "terms": "",
@@ -1225,7 +1225,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.axios.com",
+    "pattern": "://www.axios.com/",
     "selector": ".h7, :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -1250,7 +1250,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.bbc.com",
+    "pattern": "://www.bbc.com/",
     "selector": "[data-component] :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), [data-testid=\"video-page-video-section\"] :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), [data-testid=\"card-headline\"], [data-testid=\"card-description\"], [data-component=\"caption-block\"]>span, [data-testid=\"section-title-wrapper\"]>h2",
     "keepSelector": "",
     "terms": "",
@@ -1275,7 +1275,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.bing.com, copilot.microsoft.com",
+    "pattern": "://www.bing.com/, ://copilot.microsoft.com/",
     "selector": ".b_algoSlug, .rwrl_padref; .cib-serp-main >>> .ac-textBlock :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .text-message-content div",
     "keepSelector": "",
     "terms": "",
@@ -1300,7 +1300,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.bloomberg.com",
+    "pattern": "://www.bloomberg.com/",
     "selector": "[data-component=\"headline\"], [data-component=\"related-item-headline\"], [data-component=\"title\"], article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -1325,7 +1325,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.cell.com/*/fulltext",
+    "pattern": "://www.cell.com/*/fulltext",
     "selector": ":is(li:not(ul.collateral-pill li):not(ul.article-tools li):not(header li):not(.axel-related-articles__items li):not(.footer li), p:not(header p), h1, h2, h3, h4, h5, h6, dd, blockquote, [role=\"paragraph\"], figcaption>div:not(.accordion), .figure-viewer__title)",
     "keepSelector": "code, img, svg, .math, a:has(code), .MathJax",
     "terms": "",
@@ -1350,7 +1350,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.chinadaily.com.cn",
+    "pattern": "://www.chinadaily.com.cn/",
     "selector": "h1, .tMain [shape=\"rect\"], .cMain [shape=\"rect\"], .photo_art [shape=\"rect\"], .mai_r [shape=\"rect\"], .lisBox li, #Content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -1375,7 +1375,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.cnbc.com",
+    "pattern": "://www.cnbc.com/",
     "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .LatestNews-headline, .PackageItem-link, .FeaturedCard-packagedCardTitle>a, .SecondaryCard-headline>a, .RiverHeadline-headline>a, .Card-title, .TrendingNowItem-title, .InlineImage-imageEmbedCaption, .MostPopular-styles-makeit-linkWrap--G5cKW>a, a>.video-title, .MarketsBanner-teaser>a",
     "keepSelector": "",
     "terms": "",
@@ -1400,7 +1400,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.dw.com",
+    "pattern": "://www.dw.com/",
     "selector": ".ts-teaser-title a, .news-title a, .title a, .teaser-description a, .hbudab h3, .hbudab p, figcaption ,article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -1425,7 +1425,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.facebook.com",
+    "pattern": "://www.facebook.com/",
     "selector": "[role=\"main\"] [dir=\"auto\"]",
     "keepSelector": "",
     "terms": "",
@@ -1450,7 +1450,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.fmkorea.com",
+    "pattern": "://www.fmkorea.com/",
     "selector": "#container :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -1475,7 +1475,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.foxnews.com",
+    "pattern": "://www.foxnews.com/",
     "selector": ".headline, .sub-headline, .ob-rec-text, .title, .title>a, .article-body :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p); [data-spotim-module=\"conversation\"]>div >>> [data-spot-im-class=\"message-text\"] p,  [data-spot-im-class=\"message-text\"]",
     "keepSelector": "",
     "terms": "",
@@ -1500,7 +1500,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.google.com/search",
+    "pattern": "://www.google.com/search",
     "selector": "h3, .IsZvec, .VwiC3b, .nDgy9d, .ITZIwc, .HzN33d>span",
     "keepSelector": "",
     "terms": "",
@@ -1525,7 +1525,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.historydefined.net",
+    "pattern": "://www.historydefined.net/",
     "selector": ".wp-element-caption, :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -1550,7 +1550,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.indiehackers.com",
+    "pattern": "://www.indiehackers.com/",
     "selector": "h1, h3, .content :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .feed-item__title-link",
     "keepSelector": "",
     "terms": "",
@@ -1575,7 +1575,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.instagram.com/",
+    "pattern": "://www.instagram.com/",
     "selector": "h1, article span[dir=auto] > span[dir=auto], ._ab1y",
     "keepSelector": "",
     "terms": "",
@@ -1600,7 +1600,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.instagram.com/p/,www.instagram.com/reels/",
+    "pattern": "://www.instagram.com/p/, ://www.instagram.com/reels/",
     "selector": "h1, div[class='x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1uhb9sk x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1cy8zhl x1oa3qoh x1nhvcw1'] > span[class='x1lliihq x1plvlek xryxfnj x1n2onr6 x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye xvs91rp xo1l8bm x5n08af x10wh9bi x1wdrske x8viiok x18hxmgj'], span[class='x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs xt0psk2 x1i0vuye xvs91rp xo1l8bm x5n08af x10wh9bi x1wdrske x8viiok x18hxmgj']",
     "keepSelector": "",
     "terms": "",
@@ -1625,7 +1625,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.linuxquestions.org",
+    "pattern": "://www.linuxquestions.org/",
     "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .navbar_notice, [id^=\"post_message_\"]",
     "keepSelector": "",
     "terms": "",
@@ -1650,7 +1650,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.mdpi.com",
+    "pattern": "://www.mdpi.com/",
     "selector": ":is(li:not(.menu-item):not(.accordion-navigation):not(.accordion-direct-link), p, h1, h2, h3, h4, h5, h6, dd, blockquote, .affiliation-name, .art-abstract, .html-p, .html-caption, .pubhistory, .belongsTo, .html-gwd-group, .html-fig_description, .html-table_wrap_discription)",
     "keepSelector": "code, img, svg, .math, a:has(code), sup, sub, .html-disp-formula-info, .MathJax",
     "terms": "",
@@ -1675,7 +1675,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.newyorker.com",
+    "pattern": "://www.newyorker.com/",
     "selector": ".summary-item__hed, .summary-item__dek, .summary-collection-grid__dek, .dqtvfu, .rubric__link, .caption, article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .HEhan :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .ContributorBioBio-fBolsO, .BaseText-ewhhUZ",
     "keepSelector": "",
     "terms": "",
@@ -1700,7 +1700,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.noemamag.com",
+    "pattern": "://www.noemamag.com/",
     "selector": ".splash__title, .single-card__title, .single-card__type, .single-card__topic, .highlighted-content__title, .single-card__author, article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .quote__text, .wp-caption-text div",
     "keepSelector": "",
     "terms": "",
@@ -1725,7 +1725,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.npmjs.com/package, developer.chrome.com/docs, medium.com, react.dev, create-react-app.dev, pytorch.org",
+    "pattern": "://www.npmjs.com/package, ://developer.chrome.com/docs, ://medium.com/, ://react.dev/, ://create-react-app.dev/, ://pytorch.org/",
     "selector": "article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -1750,7 +1750,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.phoronix.com",
+    "pattern": "://www.phoronix.com/",
     "selector": "article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -1775,7 +1775,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "www.pnas.org/doi",
+    "pattern": "://www.pnas.org/doi",
     "selector": ":is(li:not(ul.collateral-pill li):not(.nav-item):not(.list-inline-item), p:not(.footer__copyright p), h1, h2, h3, h4, h5, h6, dd, blockquote, [role=\"paragraph\"], .meta-panel__subtype, figcaption)",
     "keepSelector": "code, img, svg, .math, a:has(code), sup, sub, .MathJax",
     "terms": "",
@@ -1800,7 +1800,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.quora.com",
+    "pattern": "://www.quora.com/",
     "selector": ".qu-wordBreak--break-word",
     "keepSelector": "",
     "terms": "",
@@ -1825,7 +1825,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.reddit.com, new.reddit.com, sh.reddit.com",
+    "pattern": "://www.reddit.com/, ://new.reddit.com/, ://sh.reddit.com/",
     "selector": ":is(#AppRouter-main-content, #overlayScrollContainer) :is([class^=tbIA],[class^=_1zP],[class^=ULWj],[class^=_2Jj], [class^=_334],[class^=_2Gr],[class^=_7T4],[class^=_1WO], :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)); [id^=\"post-title\"], :is([slot=\"text-body\"], [slot=\"comment\"]) :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), recent-posts h3, aside :is(span:has(>h2), p); shreddit-subreddit-header >>> :is(#title, #description); [data-testid=\"post-title-text\"]",
     "keepSelector": "",
     "terms": "",
@@ -1850,7 +1850,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.reuters.com",
+    "pattern": "://www.reuters.com/",
     "selector": "[data-testid=\"Heading\"], [data-testid=\"Body\"], [data-testid^=\"paragraph\"], .maintext, :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -1875,7 +1875,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.science.org/doi",
+    "pattern": "://www.science.org/doi",
     "selector": ":is(li:not(ul.collateral-pill li):not(.nav-item):not(.list-inline-item), p:not(.footer__copyright p), h1, h2, h3, h4, h5, h6, dd, blockquote, [role=\"paragraph\"], [role=\"doc-footnote\"], .meta-panel__overline, div.caption)",
     "keepSelector": "code, img, svg, .math, a:has(code), sup, sub, .MathJax",
     "terms": "",
@@ -1900,7 +1900,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.sciencedirect.com/*/article",
+    "pattern": "://www.sciencedirect.com/*/article",
     "selector": ":is(li:not(header li):not(.accessbar li):not(figure li):not(footer li), p:not(#banner>div>p):not(footer p), h1, h2, h3, h4, h5, h6, dd, blockquote, section>div, #abstracts div, .keyword)",
     "keepSelector": "code, img, svg, .math, a:has(code), sup, sub, .MathJax",
     "terms": "",
@@ -1925,7 +1925,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.semafor.com",
+    "pattern": "://www.semafor.com/",
     "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .styles_intro__IYj__, [class*=\"styles_description\"]",
     "keepSelector": "",
     "terms": "",
@@ -1950,7 +1950,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.telegraph.co.uk, go.dev/doc/",
+    "pattern": "://www.telegraph.co.uk/, ://go.dev/doc/",
     "selector": "article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)",
     "keepSelector": "",
     "terms": "",
@@ -1975,7 +1975,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.theguardian.com",
+    "pattern": "://www.theguardian.com/",
     "selector": ".show-underline, .dcr-hup5wm div, .dcr-7vl6y8 div, .dcr-12evv1c, figcaption, article :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), [data-cy=\"mostviewed-footer\"] h4",
     "keepSelector": "",
     "terms": "",
@@ -2000,7 +2000,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.twitch.tv",
+    "pattern": "://www.twitch.tv/",
     "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), [data-a-target='chat-line-message-body']",
     "keepSelector": ".mention-fragment",
     "terms": "",
@@ -2025,7 +2025,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "www.unknowncheats.me",
+    "pattern": "://www.unknowncheats.me/",
     "selector": ":is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .tcat, [id^=\"thread_title_\"]",
     "keepSelector": "",
     "terms": "",
@@ -2050,7 +2050,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "www.youtube.com",
+    "pattern": "://www.youtube.com/",
     "selector": "h1>.ytd-watch-metadata, .yt-lockup-metadata-view-model-wiz__title, .shortsLockupViewModelHostMetadataTitle>a, #content-text>span, yt-attributed-string.ytd-text-inline-expander>span, #chat-messages #message, #video-title, #title,  #snippet-text, span.caption-visual-line>span, .ytp-caption-segment, .yt-lockup-metadata-view-model__title>span",
     "keepSelector": "img, #content-text>a, span[dir=\"auto\"]:has(a), span:has(img), [role=\"tooltip\"]",
     "terms": "",
@@ -2076,7 +2076,7 @@
     "transEndHook": "(node, text) => {  node.parentElement.parentElement.style.cssText += \"-webkit-line-clamp: unset; max-height: none; height: auto;\";return text;}"
   },
   {
-    "pattern": "wx2.qq.com",
+    "pattern": "://wx2.qq.com/",
     "selector": ".js_message_plain",
     "keepSelector": "",
     "terms": "",
@@ -2101,7 +2101,7 @@
     "fixerFunc": "*"
   },
   {
-    "pattern": "xdaforums.com",
+    "pattern": "://xdaforums.com/",
     "selector": ".p-body-main :is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p), .title, .structItem-title",
     "keepSelector": "",
     "terms": "",
@@ -2126,7 +2126,7 @@
     "fixerFunc": "br"
   },
   {
-    "pattern": "youtrack.jetbrains.com",
+    "pattern": "://youtrack.jetbrains.com/",
     "selector": "h1, h2, h3, h4, h5, h6, p, li, dd, blockquote",
     "keepSelector": "",
     "terms": "",
